@@ -1,22 +1,18 @@
 # Production-Grade AI Customer Support Agent for @AppleSupport
-> **Take-Home Assignment Submission**  
-> **Brand Selected**: `@AppleSupport` (Twitter Customer Support Dataset)  
-> **Location**: `/Users/dibyanshukushwaha/Desktop/AI_Support_Agent`
 
----
 
-## ⚡ Quick Start: 15-Minute Headline Results Reproduction Guide
+##  Quick Start: 15-Minute Headline Results Reproduction Guide
 
 Follow these simple steps to set up the environment, generate datasets, run the AI agent pipeline, and reproduce the benchmark evaluation results in **under 2 minutes**.
 
 ```bash
-# 1. Navigate to the project directory
+
 cd ~/Desktop/AI_Support_Agent
 
-# 2. Activate the virtual environment (or create one using requirements.txt)
+# 2. Activate the virtual environment 
 source venv/bin/activate
 
-# 3. Generate Knowledge Base and Golden Evaluation Set (200 hand-curated threads)
+# 3. Generate Knowledge Base and Golden Evaluation Set 
 python data/generate_dataset.py
 
 # 4. Run single tweet inference through the AI Support Agent pipeline

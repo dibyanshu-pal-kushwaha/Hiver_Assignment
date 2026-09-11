@@ -1,0 +1,112 @@
+[
+  {
+    "intent": "hardware_battery",
+    "keywords": [
+      "battery",
+      "drain",
+      "charge",
+      "heat",
+      "overheating",
+      "dying"
+    ],
+    "resolution_pattern": "Check Settings > Battery to see app power usage. If battery health is below 80%, recommend visiting an Apple Store.",
+    "sample_response": "We want your iPhone to stay charged! Take a look at Settings > Battery to see if a specific app is using extra power: https://apple.co/BatteryInfo If issues persist, send us a DM.",
+    "url": "https://support.apple.com/iphone/battery-health"
+  },
+  {
+    "intent": "software_update",
+    "keywords": [
+      "update",
+      "ios",
+      "ios17",
+      "ios16",
+      "freeze",
+      "stuck",
+      "installing",
+      "slow"
+    ],
+    "resolution_pattern": "Force restart device, verify iCloud backup, ensure at least 5GB free storage before installing update.",
+    "sample_response": "Let's get your iPhone updating smoothly again. Try a force restart: https://apple.co/ForceRestart If it's stuck on the Apple logo, connect to iTunes/Finder to update.",
+    "url": "https://support.apple.com/ios/update"
+  },
+  {
+    "intent": "account_billing",
+    "keywords": [
+      "apple id",
+      "charge",
+      "refund",
+      "unauthorized",
+      "locked",
+      "password",
+      "subscription",
+      "billed"
+    ],
+    "resolution_pattern": "Direct user to reportaproblem.apple.com for unrecognized billing, or iforgot.apple.com for locked Apple ID.",
+    "sample_response": "We can help you review your account charges. Check your purchase history or request a refund at https://reportaproblem.apple.com. For account security, DM us your Apple ID email.",
+    "url": "https://reportaproblem.apple.com"
+  },
+  {
+    "intent": "connectivity_bluetooth",
+    "keywords": [
+      "bluetooth",
+      "airpods",
+      "wifi",
+      "cellular",
+      "disconnect",
+      "pairing",
+      "signal",
+      "drop"
+    ],
+    "resolution_pattern": "Forget network/device in Settings, Reset Network Settings, or reset AirPods by holding setup button for 15 seconds.",
+    "sample_response": "Sorry your AirPods are disconnecting! Try resetting them by holding the button on the back of the charging case until the light flashes amber: https://apple.co/ResetAirPods",
+    "url": "https://support.apple.com/airpods/reset"
+  },
+  {
+    "intent": "app_crash_bug",
+    "keywords": [
+      "crash",
+      "app",
+      "safari",
+      "camera",
+      "freeze",
+      "black screen",
+      "glitch",
+      "closing"
+    ],
+    "resolution_pattern": "Force close app, check App Store for updates, restart device, or reinstall the affected app.",
+    "sample_response": "App crashes are no fun. First, swipe up to force close the app, check App Store for updates, then restart your iPhone: https://apple.co/AppFix DM us if it keeps happening!",
+    "url": "https://support.apple.com/apps/troubleshoot"
+  },
+  {
+    "intent": "device_physical_damage",
+    "keywords": [
+      "cracked",
+      "screen",
+      "water",
+      "dropped",
+      "broken",
+      "liquid",
+      "speaker",
+      "shattered"
+    ],
+    "resolution_pattern": "Escalate to AppleCare store repair appointment. Water/physical damage cannot be fixed via software troubleshooting.",
+    "sample_response": "We're sorry to hear about the screen damage! For safety and proper repair, please schedule a service appointment at an Apple Authorized Service Provider: https://getsupport.apple.com",
+    "url": "https://getsupport.apple.com"
+  },
+  {
+    "intent": "general_inquiry_feedback",
+    "keywords": [
+      "store",
+      "hours",
+      "trade-in",
+      "price",
+      "compatibility",
+      "specs",
+      "buy",
+      "feedback"
+    ],
+    "resolution_pattern": "Provide direct Apple support/store link or trade-in estimator link.",
+    "sample_response": "Thanks for reaching out to Apple! You can check your trade-in estimate directly on our website: https://apple.co/TradeIn Let us know if you have any questions!",
+    "url": "https://apple.co/TradeIn"
+  }
+]

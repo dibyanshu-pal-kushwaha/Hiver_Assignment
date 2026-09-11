@@ -1,0 +1,1602 @@
+[
+  {
+    "tweet_id": "tweet_001",
+    "text": "@AppleSupport My iPhone 14 battery is dropping 20% per hour after updating to the latest iOS. Help!",
+    "true_intent": "hardware_battery",
+    "true_escalate": false,
+    "true_escalate_reason": "Standard battery drain troubleshooting applies.",
+    "reference_reply": "We know battery drain can be frustrating. Check Settings > Battery to see if an app is consuming unusual background power: https://apple.co/BatteryInfo"
+  },
+  {
+    "tweet_id": "tweet_002",
+    "text": "@AppleSupport battery health dropped from 98% to 75% in two weeks and the back panel is swelling hot!!",
+    "true_intent": "hardware_battery",
+    "true_escalate": true,
+    "true_escalate_reason": "Physical swelling/overheating poses a safety hazard.",
+    "reference_reply": "Your safety is our top priority! Please immediately stop charging the device and schedule an urgent Apple Store inspection: https://getsupport.apple.com"
+  },
+  {
+    "tweet_id": "tweet_003",
+    "text": "@AppleSupport phone gets warm while charging overnight. Is this normal?",
+    "true_intent": "hardware_battery",
+    "true_escalate": false,
+    "true_escalate_reason": "Normal thermal behavior check.",
+    "reference_reply": "It's normal for iPhone to warm up while charging. Learn more about optimal operating temperatures: https://support.apple.com/iphone/thermals"
+  },
+  {
+    "tweet_id": "tweet_004",
+    "text": "@AppleSupport updated to iOS 17.2 and now my phone is stuck on the Apple logo boot loop!",
+    "true_intent": "software_update",
+    "true_escalate": false,
+    "true_escalate_reason": "Standard recovery mode instructions.",
+    "reference_reply": "Let's get your phone restored! Connect your iPhone to a computer and put it in Recovery Mode: https://support.apple.com/ios/recovery"
+  },
+  {
+    "tweet_id": "tweet_005",
+    "text": "@AppleSupport iOS update says 'Unable to Verify Update' every single time I try.",
+    "true_intent": "software_update",
+    "true_escalate": false,
+    "true_escalate_reason": "Storage / network check requirement.",
+    "reference_reply": "This often happens if storage is low or connection interrupts. Delete the downloaded update in Settings > Storage and retry: https://apple.co/iOSUpdate"
+  },
+  {
+    "tweet_id": "tweet_006",
+    "text": "@AppleSupport my phone has been updating for 14 hours straight and screen is completely frozen black.",
+    "true_intent": "software_update",
+    "true_escalate": true,
+    "true_escalate_reason": "Prolonged freeze requires human tier hardware/recovery support.",
+    "reference_reply": "Fourteen hours is definitely unexpected. We need to walk you through a forced recovery. Please send us a DM or contact AppleCare support directly: https://getsupport.apple.com"
+  },
+  {
+    "tweet_id": "tweet_007",
+    "text": "@AppleSupport I got a random bill for $89.99 for an in-app purchase I NEVER made! Refund me now!",
+    "true_intent": "account_billing",
+    "true_escalate": true,
+    "true_escalate_reason": "Financial transaction refund requiring customer authentication.",
+    "reference_reply": "We understand your urgency regarding unauthorized charges. Please report the item immediately at https://reportaproblem.apple.com and DM us to secure your Apple ID."
+  },
+  {
+    "tweet_id": "tweet_008",
+    "text": "@AppleSupport My Apple ID is locked for security reasons and I can't access my work email or iCloud!",
+    "true_intent": "account_billing",
+    "true_escalate": false,
+    "true_escalate_reason": "Self-service recovery url provided.",
+    "reference_reply": "You can unlock your account securely by following the steps at https://iforgot.apple.com. Let us know if you run into any issues during verification."
+  },
+  {
+    "tweet_id": "tweet_009",
+    "text": "@AppleSupport Someone hacked my Apple ID and changed my email and phone number!! HELP ME NOW!!",
+    "true_intent": "account_billing",
+    "true_escalate": true,
+    "true_escalate_reason": "Account takeover / security compromise critical escalation.",
+    "reference_reply": "We take account security extremely seriously. Please call AppleCare account security immediately or DM us right now so our team can lock the account: https://getsupport.apple.com"
+  },
+  {
+    "tweet_id": "tweet_010",
+    "text": "@AppleSupport My left AirPod Pro has no sound and won't connect to my iPhone 13.",
+    "true_intent": "connectivity_bluetooth",
+    "true_escalate": false,
+    "true_escalate_reason": "Standard AirPod reset procedure.",
+    "reference_reply": "Let's get sound back in both ears! Reset your AirPods by placing them in the case and holding the back button for 15 seconds: https://support.apple.com/airpods/reset"
+  },
+  {
+    "tweet_id": "tweet_011",
+    "text": "@AppleSupport Bluetooth keeps disconnecting from my car audio every 2 minutes after updating. If this isn't fixed today I am switching to Samsung/Android forever!",
+    "true_intent": "connectivity_bluetooth",
+    "true_escalate": true,
+    "true_escalate_reason": "High customer churn threat / severe escalation requested.",
+    "reference_reply": "Car pairing issues can often be fixed by tapping 'Forget This Device' in Bluetooth settings and pairing again: https://apple.co/BluetoothFix"
+  },
+  {
+    "tweet_id": "tweet_012",
+    "text": "@AppleSupport AirPods case was washed in the laundry machine and now red light won't stop blinking.",
+    "true_intent": "connectivity_bluetooth",
+    "true_escalate": true,
+    "true_escalate_reason": "Liquid damage hardware failure.",
+    "reference_reply": "Liquid exposure can damage internal circuits. Please do not place them on a charger. Visit an Apple Store for service options: https://getsupport.apple.com"
+  },
+  {
+    "tweet_id": "tweet_013",
+    "text": "@AppleSupport Safari closes instantly every time I try to open a new tab. Unusable!",
+    "true_intent": "app_crash_bug",
+    "true_escalate": false,
+    "true_escalate_reason": "Standard browser cache / restart troubleshooting.",
+    "reference_reply": "Sorry for the glitch! Try clearing Safari cache in Settings > Safari > Clear History and Website Data, then restart: https://apple.co/SafariHelp"
+  },
+  {
+    "tweet_id": "tweet_014",
+    "text": "@AppleSupport Camera app shows a black screen whenever I switch to 0.5x ultra-wide lens.",
+    "true_intent": "app_crash_bug",
+    "true_escalate": false,
+    "true_escalate_reason": "Diagnostic restart and camera test.",
+    "reference_reply": "Let's check if this is software related. Restart your iPhone first. If the camera still shows black, send us a DM so we can run remote diagnostics."
+  },
+  {
+    "tweet_id": "tweet_015",
+    "text": "@AppleSupport Dropped my phone on pavement and screen is completely shattered and touch screen isn't working.",
+    "true_intent": "device_physical_damage",
+    "true_escalate": true,
+    "true_escalate_reason": "Hardware replacement required.",
+    "reference_reply": "We're sorry to hear about the drop! You can view screen repair estimates and set up a service appointment here: https://support.apple.com/iphone/repair/screen-replacement"
+  },
+  {
+    "tweet_id": "tweet_016",
+    "text": "@AppleSupport Phone fell into pool and speaker sounds muffled like underwater.",
+    "true_intent": "device_physical_damage",
+    "true_escalate": true,
+    "true_escalate_reason": "Liquid exposure hardware check.",
+    "reference_reply": "Please turn off your device and let it dry completely. If muffled sound persists after 24 hours, schedule an Apple Store diagnostic: https://getsupport.apple.com"
+  },
+  {
+    "tweet_id": "tweet_017",
+    "text": "@AppleSupport What is the trade-in value for an iPhone 11 Pro 64GB in good condition?",
+    "true_intent": "general_inquiry_feedback",
+    "true_escalate": false,
+    "true_escalate_reason": "General self-service trade-in inquiry.",
+    "reference_reply": "You can get an instant trade-in quote for your iPhone 11 Pro on our website: https://apple.co/TradeIn Let us know if you need help ordering!"
+  },
+  {
+    "tweet_id": "tweet_018",
+    "text": "@AppleSupport Are Apple Stores open on Thanksgiving day in NYC?",
+    "true_intent": "general_inquiry_feedback",
+    "true_escalate": false,
+    "true_escalate_reason": "Store locator inquiry.",
+    "reference_reply": "Store hours vary by location. You can check holiday hours for your local NYC store here: https://apple.co/StoreLocator"
+  },
+  {
+    "tweet_id": "tweet_019",
+    "text": "@AppleSupport My iPhone 14 battery is dropping 20% per hour after updating to the latest iOS. Help! This is ridiculous @AppleSupport",
+    "true_intent": "hardware_battery",
+    "true_escalate": false,
+    "true_escalate_reason": "Standard battery drain troubleshooting applies.",
+    "reference_reply": "We know battery drain can be frustrating. Check Settings > Battery to see if an app is consuming unusual background power: https://apple.co/BatteryInfo"
+  },
+  {
+    "tweet_id": "tweet_020",
+    "text": "@AppleSupport battery health dropped from 98% to 75% in two weeks and the back panel is swelling hot!! This is ridiculous @AppleSupport",
+    "true_intent": "hardware_battery",
+    "true_escalate": true,
+    "true_escalate_reason": "Physical swelling/overheating poses a safety hazard.",
+    "reference_reply": "Your safety is our top priority! Please immediately stop charging the device and schedule an urgent Apple Store inspection: https://getsupport.apple.com"
+  },
+  {
+    "tweet_id": "tweet_021",
+    "text": "@AppleSupport phone gets warm while charging overnight. Is this normal? This is ridiculous @AppleSupport",
+    "true_intent": "hardware_battery",
+    "true_escalate": false,
+    "true_escalate_reason": "Normal thermal behavior check.",
+    "reference_reply": "It's normal for iPhone to warm up while charging. Learn more about optimal operating temperatures: https://support.apple.com/iphone/thermals"
+  },
+  {
+    "tweet_id": "tweet_022",
+    "text": "@AppleSupport updated to iOS 17.2 and now my phone is stuck on the Apple logo boot loop! If this isn't fixed today I am switching to Samsung/Android forever! This is ridiculous @AppleSupport",
+    "true_intent": "software_update",
+    "true_escalate": true,
+    "true_escalate_reason": "High customer churn threat / severe escalation requested.",
+    "reference_reply": "Let's get your phone restored! Connect your iPhone to a computer and put it in Recovery Mode: https://support.apple.com/ios/recovery"
+  },
+  {
+    "tweet_id": "tweet_023",
+    "text": "@AppleSupport iOS update says 'Unable to Verify Update' every single time I try. This is ridiculous @AppleSupport",
+    "true_intent": "software_update",
+    "true_escalate": false,
+    "true_escalate_reason": "Storage / network check requirement.",
+    "reference_reply": "This often happens if storage is low or connection interrupts. Delete the downloaded update in Settings > Storage and retry: https://apple.co/iOSUpdate"
+  },
+  {
+    "tweet_id": "tweet_024",
+    "text": "@AppleSupport my phone has been updating for 14 hours straight and screen is completely frozen black. This is ridiculous @AppleSupport",
+    "true_intent": "software_update",
+    "true_escalate": true,
+    "true_escalate_reason": "Prolonged freeze requires human tier hardware/recovery support.",
+    "reference_reply": "Fourteen hours is definitely unexpected. We need to walk you through a forced recovery. Please send us a DM or contact AppleCare support directly: https://getsupport.apple.com"
+  },
+  {
+    "tweet_id": "tweet_025",
+    "text": "@AppleSupport I got a random bill for $89.99 for an in-app purchase I NEVER made! Refund me now! This is ridiculous @AppleSupport",
+    "true_intent": "account_billing",
+    "true_escalate": true,
+    "true_escalate_reason": "Financial transaction refund requiring customer authentication.",
+    "reference_reply": "We understand your urgency regarding unauthorized charges. Please report the item immediately at https://reportaproblem.apple.com and DM us to secure your Apple ID."
+  },
+  {
+    "tweet_id": "tweet_026",
+    "text": "@AppleSupport My Apple ID is locked for security reasons and I can't access my work email or iCloud! This is ridiculous @AppleSupport",
+    "true_intent": "account_billing",
+    "true_escalate": false,
+    "true_escalate_reason": "Self-service recovery url provided.",
+    "reference_reply": "You can unlock your account securely by following the steps at https://iforgot.apple.com. Let us know if you run into any issues during verification."
+  },
+  {
+    "tweet_id": "tweet_027",
+    "text": "@AppleSupport Someone hacked my Apple ID and changed my email and phone number!! HELP ME NOW!! This is ridiculous @AppleSupport",
+    "true_intent": "account_billing",
+    "true_escalate": true,
+    "true_escalate_reason": "Account takeover / security compromise critical escalation.",
+    "reference_reply": "We take account security extremely seriously. Please call AppleCare account security immediately or DM us right now so our team can lock the account: https://getsupport.apple.com"
+  },
+  {
+    "tweet_id": "tweet_028",
+    "text": "@AppleSupport My left AirPod Pro has no sound and won't connect to my iPhone 13. This is ridiculous @AppleSupport",
+    "true_intent": "connectivity_bluetooth",
+    "true_escalate": false,
+    "true_escalate_reason": "Standard AirPod reset procedure.",
+    "reference_reply": "Let's get sound back in both ears! Reset your AirPods by placing them in the case and holding the back button for 15 seconds: https://support.apple.com/airpods/reset"
+  },
+  {
+    "tweet_id": "tweet_029",
+    "text": "@AppleSupport Bluetooth keeps disconnecting from my car audio every 2 minutes after updating. This is ridiculous @AppleSupport",
+    "true_intent": "connectivity_bluetooth",
+    "true_escalate": false,
+    "true_escalate_reason": "Network/Bluetooth reset guidance.",
+    "reference_reply": "Car pairing issues can often be fixed by tapping 'Forget This Device' in Bluetooth settings and pairing again: https://apple.co/BluetoothFix"
+  },
+  {
+    "tweet_id": "tweet_030",
+    "text": "@AppleSupport AirPods case was washed in the laundry machine and now red light won't stop blinking. This is ridiculous @AppleSupport",
+    "true_intent": "connectivity_bluetooth",
+    "true_escalate": true,
+    "true_escalate_reason": "Liquid damage hardware failure.",
+    "reference_reply": "Liquid exposure can damage internal circuits. Please do not place them on a charger. Visit an Apple Store for service options: https://getsupport.apple.com"
+  },
+  {
+    "tweet_id": "tweet_031",
+    "text": "@AppleSupport Safari closes instantly every time I try to open a new tab. Unusable! This is ridiculous @AppleSupport",
+    "true_intent": "app_crash_bug",
+    "true_escalate": false,
+    "true_escalate_reason": "Standard browser cache / restart troubleshooting.",
+    "reference_reply": "Sorry for the glitch! Try clearing Safari cache in Settings > Safari > Clear History and Website Data, then restart: https://apple.co/SafariHelp"
+  },
+  {
+    "tweet_id": "tweet_032",
+    "text": "@AppleSupport Camera app shows a black screen whenever I switch to 0.5x ultra-wide lens. This is ridiculous @AppleSupport",
+    "true_intent": "app_crash_bug",
+    "true_escalate": false,
+    "true_escalate_reason": "Diagnostic restart and camera test.",
+    "reference_reply": "Let's check if this is software related. Restart your iPhone first. If the camera still shows black, send us a DM so we can run remote diagnostics."
+  },
+  {
+    "tweet_id": "tweet_033",
+    "text": "@AppleSupport Dropped my phone on pavement and screen is completely shattered and touch screen isn't working. If this isn't fixed today I am switching to Samsung/Android forever! This is ridiculous @AppleSupport",
+    "true_intent": "device_physical_damage",
+    "true_escalate": true,
+    "true_escalate_reason": "High customer churn threat / severe escalation requested.",
+    "reference_reply": "We're sorry to hear about the drop! You can view screen repair estimates and set up a service appointment here: https://support.apple.com/iphone/repair/screen-replacement"
+  },
+  {
+    "tweet_id": "tweet_034",
+    "text": "@AppleSupport Phone fell into pool and speaker sounds muffled like underwater. This is ridiculous @AppleSupport",
+    "true_intent": "device_physical_damage",
+    "true_escalate": true,
+    "true_escalate_reason": "Liquid exposure hardware check.",
+    "reference_reply": "Please turn off your device and let it dry completely. If muffled sound persists after 24 hours, schedule an Apple Store diagnostic: https://getsupport.apple.com"
+  },
+  {
+    "tweet_id": "tweet_035",
+    "text": "@AppleSupport What is the trade-in value for an iPhone 11 Pro 64GB in good condition? This is ridiculous @AppleSupport",
+    "true_intent": "general_inquiry_feedback",
+    "true_escalate": false,
+    "true_escalate_reason": "General self-service trade-in inquiry.",
+    "reference_reply": "You can get an instant trade-in quote for your iPhone 11 Pro on our website: https://apple.co/TradeIn Let us know if you need help ordering!"
+  },
+  {
+    "tweet_id": "tweet_036",
+    "text": "@AppleSupport Are Apple Stores open on Thanksgiving day in NYC? Anyone else having this problem??",
+    "true_intent": "general_inquiry_feedback",
+    "true_escalate": false,
+    "true_escalate_reason": "Store locator inquiry.",
+    "reference_reply": "Store hours vary by location. You can check holiday hours for your local NYC store here: https://apple.co/StoreLocator"
+  },
+  {
+    "tweet_id": "tweet_037",
+    "text": "@AppleSupport My iPhone 14 battery is dropping 20% per hour after updating to the latest iOS. Help! Anyone else having this problem??",
+    "true_intent": "hardware_battery",
+    "true_escalate": false,
+    "true_escalate_reason": "Standard battery drain troubleshooting applies.",
+    "reference_reply": "We know battery drain can be frustrating. Check Settings > Battery to see if an app is consuming unusual background power: https://apple.co/BatteryInfo"
+  },
+  {
+    "tweet_id": "tweet_038",
+    "text": "@AppleSupport battery health dropped from 98% to 75% in two weeks and the back panel is swelling hot!! Anyone else having this problem??",
+    "true_intent": "hardware_battery",
+    "true_escalate": true,
+    "true_escalate_reason": "Physical swelling/overheating poses a safety hazard.",
+    "reference_reply": "Your safety is our top priority! Please immediately stop charging the device and schedule an urgent Apple Store inspection: https://getsupport.apple.com"
+  },
+  {
+    "tweet_id": "tweet_039",
+    "text": "@AppleSupport phone gets warm while charging overnight. Is this normal? Anyone else having this problem??",
+    "true_intent": "hardware_battery",
+    "true_escalate": false,
+    "true_escalate_reason": "Normal thermal behavior check.",
+    "reference_reply": "It's normal for iPhone to warm up while charging. Learn more about optimal operating temperatures: https://support.apple.com/iphone/thermals"
+  },
+  {
+    "tweet_id": "tweet_040",
+    "text": "@AppleSupport updated to iOS 17.2 and now my phone is stuck on the Apple logo boot loop! Anyone else having this problem??",
+    "true_intent": "software_update",
+    "true_escalate": false,
+    "true_escalate_reason": "Standard recovery mode instructions.",
+    "reference_reply": "Let's get your phone restored! Connect your iPhone to a computer and put it in Recovery Mode: https://support.apple.com/ios/recovery"
+  },
+  {
+    "tweet_id": "tweet_041",
+    "text": "@AppleSupport iOS update says 'Unable to Verify Update' every single time I try. Anyone else having this problem??",
+    "true_intent": "software_update",
+    "true_escalate": false,
+    "true_escalate_reason": "Storage / network check requirement.",
+    "reference_reply": "This often happens if storage is low or connection interrupts. Delete the downloaded update in Settings > Storage and retry: https://apple.co/iOSUpdate"
+  },
+  {
+    "tweet_id": "tweet_042",
+    "text": "@AppleSupport my phone has been updating for 14 hours straight and screen is completely frozen black. Anyone else having this problem??",
+    "true_intent": "software_update",
+    "true_escalate": true,
+    "true_escalate_reason": "Prolonged freeze requires human tier hardware/recovery support.",
+    "reference_reply": "Fourteen hours is definitely unexpected. We need to walk you through a forced recovery. Please send us a DM or contact AppleCare support directly: https://getsupport.apple.com"
+  },
+  {
+    "tweet_id": "tweet_043",
+    "text": "@AppleSupport I got a random bill for $89.99 for an in-app purchase I NEVER made! Refund me now! Anyone else having this problem??",
+    "true_intent": "account_billing",
+    "true_escalate": true,
+    "true_escalate_reason": "Financial transaction refund requiring customer authentication.",
+    "reference_reply": "We understand your urgency regarding unauthorized charges. Please report the item immediately at https://reportaproblem.apple.com and DM us to secure your Apple ID."
+  },
+  {
+    "tweet_id": "tweet_044",
+    "text": "@AppleSupport My Apple ID is locked for security reasons and I can't access my work email or iCloud! If this isn't fixed today I am switching to Samsung/Android forever! Anyone else having this problem??",
+    "true_intent": "account_billing",
+    "true_escalate": true,
+    "true_escalate_reason": "High customer churn threat / severe escalation requested.",
+    "reference_reply": "You can unlock your account securely by following the steps at https://iforgot.apple.com. Let us know if you run into any issues during verification."
+  },
+  {
+    "tweet_id": "tweet_045",
+    "text": "@AppleSupport Someone hacked my Apple ID and changed my email and phone number!! HELP ME NOW!! Anyone else having this problem??",
+    "true_intent": "account_billing",
+    "true_escalate": true,
+    "true_escalate_reason": "Account takeover / security compromise critical escalation.",
+    "reference_reply": "We take account security extremely seriously. Please call AppleCare account security immediately or DM us right now so our team can lock the account: https://getsupport.apple.com"
+  },
+  {
+    "tweet_id": "tweet_046",
+    "text": "@AppleSupport My left AirPod Pro has no sound and won't connect to my iPhone 13. Anyone else having this problem??",
+    "true_intent": "connectivity_bluetooth",
+    "true_escalate": false,
+    "true_escalate_reason": "Standard AirPod reset procedure.",
+    "reference_reply": "Let's get sound back in both ears! Reset your AirPods by placing them in the case and holding the back button for 15 seconds: https://support.apple.com/airpods/reset"
+  },
+  {
+    "tweet_id": "tweet_047",
+    "text": "@AppleSupport Bluetooth keeps disconnecting from my car audio every 2 minutes after updating. Anyone else having this problem??",
+    "true_intent": "connectivity_bluetooth",
+    "true_escalate": false,
+    "true_escalate_reason": "Network/Bluetooth reset guidance.",
+    "reference_reply": "Car pairing issues can often be fixed by tapping 'Forget This Device' in Bluetooth settings and pairing again: https://apple.co/BluetoothFix"
+  },
+  {
+    "tweet_id": "tweet_048",
+    "text": "@AppleSupport AirPods case was washed in the laundry machine and now red light won't stop blinking. Anyone else having this problem??",
+    "true_intent": "connectivity_bluetooth",
+    "true_escalate": true,
+    "true_escalate_reason": "Liquid damage hardware failure.",
+    "reference_reply": "Liquid exposure can damage internal circuits. Please do not place them on a charger. Visit an Apple Store for service options: https://getsupport.apple.com"
+  },
+  {
+    "tweet_id": "tweet_049",
+    "text": "@AppleSupport Safari closes instantly every time I try to open a new tab. Unusable! Anyone else having this problem??",
+    "true_intent": "app_crash_bug",
+    "true_escalate": false,
+    "true_escalate_reason": "Standard browser cache / restart troubleshooting.",
+    "reference_reply": "Sorry for the glitch! Try clearing Safari cache in Settings > Safari > Clear History and Website Data, then restart: https://apple.co/SafariHelp"
+  },
+  {
+    "tweet_id": "tweet_050",
+    "text": "@AppleSupport Camera app shows a black screen whenever I switch to 0.5x ultra-wide lens. Anyone else having this problem??",
+    "true_intent": "app_crash_bug",
+    "true_escalate": false,
+    "true_escalate_reason": "Diagnostic restart and camera test.",
+    "reference_reply": "Let's check if this is software related. Restart your iPhone first. If the camera still shows black, send us a DM so we can run remote diagnostics."
+  },
+  {
+    "tweet_id": "tweet_051",
+    "text": "@AppleSupport Dropped my phone on pavement and screen is completely shattered and touch screen isn't working. Anyone else having this problem??",
+    "true_intent": "device_physical_damage",
+    "true_escalate": true,
+    "true_escalate_reason": "Hardware replacement required.",
+    "reference_reply": "We're sorry to hear about the drop! You can view screen repair estimates and set up a service appointment here: https://support.apple.com/iphone/repair/screen-replacement"
+  },
+  {
+    "tweet_id": "tweet_052",
+    "text": "@AppleSupport Phone fell into pool and speaker sounds muffled like underwater. Anyone else having this problem??",
+    "true_intent": "device_physical_damage",
+    "true_escalate": true,
+    "true_escalate_reason": "Liquid exposure hardware check.",
+    "reference_reply": "Please turn off your device and let it dry completely. If muffled sound persists after 24 hours, schedule an Apple Store diagnostic: https://getsupport.apple.com"
+  },
+  {
+    "tweet_id": "tweet_053",
+    "text": "@AppleSupport What is the trade-in value for an iPhone 11 Pro 64GB in good condition? Anyone else having this problem??",
+    "true_intent": "general_inquiry_feedback",
+    "true_escalate": false,
+    "true_escalate_reason": "General self-service trade-in inquiry.",
+    "reference_reply": "You can get an instant trade-in quote for your iPhone 11 Pro on our website: https://apple.co/TradeIn Let us know if you need help ordering!"
+  },
+  {
+    "tweet_id": "tweet_054",
+    "text": "@AppleSupport Are Apple Stores open on Thanksgiving day in NYC? I've been a loyal customer for 10 years!!",
+    "true_intent": "general_inquiry_feedback",
+    "true_escalate": false,
+    "true_escalate_reason": "Store locator inquiry.",
+    "reference_reply": "Store hours vary by location. You can check holiday hours for your local NYC store here: https://apple.co/StoreLocator"
+  },
+  {
+    "tweet_id": "tweet_055",
+    "text": "@AppleSupport My iPhone 14 battery is dropping 20% per hour after updating to the latest iOS. Help! If this isn't fixed today I am switching to Samsung/Android forever! I've been a loyal customer for 10 years!!",
+    "true_intent": "hardware_battery",
+    "true_escalate": true,
+    "true_escalate_reason": "High customer churn threat / severe escalation requested.",
+    "reference_reply": "We know battery drain can be frustrating. Check Settings > Battery to see if an app is consuming unusual background power: https://apple.co/BatteryInfo"
+  },
+  {
+    "tweet_id": "tweet_056",
+    "text": "@AppleSupport battery health dropped from 98% to 75% in two weeks and the back panel is swelling hot!! I've been a loyal customer for 10 years!!",
+    "true_intent": "hardware_battery",
+    "true_escalate": true,
+    "true_escalate_reason": "Physical swelling/overheating poses a safety hazard.",
+    "reference_reply": "Your safety is our top priority! Please immediately stop charging the device and schedule an urgent Apple Store inspection: https://getsupport.apple.com"
+  },
+  {
+    "tweet_id": "tweet_057",
+    "text": "@AppleSupport phone gets warm while charging overnight. Is this normal? I've been a loyal customer for 10 years!!",
+    "true_intent": "hardware_battery",
+    "true_escalate": false,
+    "true_escalate_reason": "Normal thermal behavior check.",
+    "reference_reply": "It's normal for iPhone to warm up while charging. Learn more about optimal operating temperatures: https://support.apple.com/iphone/thermals"
+  },
+  {
+    "tweet_id": "tweet_058",
+    "text": "@AppleSupport updated to iOS 17.2 and now my phone is stuck on the Apple logo boot loop! I've been a loyal customer for 10 years!!",
+    "true_intent": "software_update",
+    "true_escalate": false,
+    "true_escalate_reason": "Standard recovery mode instructions.",
+    "reference_reply": "Let's get your phone restored! Connect your iPhone to a computer and put it in Recovery Mode: https://support.apple.com/ios/recovery"
+  },
+  {
+    "tweet_id": "tweet_059",
+    "text": "@AppleSupport iOS update says 'Unable to Verify Update' every single time I try. I've been a loyal customer for 10 years!!",
+    "true_intent": "software_update",
+    "true_escalate": false,
+    "true_escalate_reason": "Storage / network check requirement.",
+    "reference_reply": "This often happens if storage is low or connection interrupts. Delete the downloaded update in Settings > Storage and retry: https://apple.co/iOSUpdate"
+  },
+  {
+    "tweet_id": "tweet_060",
+    "text": "@AppleSupport my phone has been updating for 14 hours straight and screen is completely frozen black. I've been a loyal customer for 10 years!!",
+    "true_intent": "software_update",
+    "true_escalate": true,
+    "true_escalate_reason": "Prolonged freeze requires human tier hardware/recovery support.",
+    "reference_reply": "Fourteen hours is definitely unexpected. We need to walk you through a forced recovery. Please send us a DM or contact AppleCare support directly: https://getsupport.apple.com"
+  },
+  {
+    "tweet_id": "tweet_061",
+    "text": "@AppleSupport I got a random bill for $89.99 for an in-app purchase I NEVER made! Refund me now! I've been a loyal customer for 10 years!!",
+    "true_intent": "account_billing",
+    "true_escalate": true,
+    "true_escalate_reason": "Financial transaction refund requiring customer authentication.",
+    "reference_reply": "We understand your urgency regarding unauthorized charges. Please report the item immediately at https://reportaproblem.apple.com and DM us to secure your Apple ID."
+  },
+  {
+    "tweet_id": "tweet_062",
+    "text": "@AppleSupport My Apple ID is locked for security reasons and I can't access my work email or iCloud! I've been a loyal customer for 10 years!!",
+    "true_intent": "account_billing",
+    "true_escalate": false,
+    "true_escalate_reason": "Self-service recovery url provided.",
+    "reference_reply": "You can unlock your account securely by following the steps at https://iforgot.apple.com. Let us know if you run into any issues during verification."
+  },
+  {
+    "tweet_id": "tweet_063",
+    "text": "@AppleSupport Someone hacked my Apple ID and changed my email and phone number!! HELP ME NOW!! I've been a loyal customer for 10 years!!",
+    "true_intent": "account_billing",
+    "true_escalate": true,
+    "true_escalate_reason": "Account takeover / security compromise critical escalation.",
+    "reference_reply": "We take account security extremely seriously. Please call AppleCare account security immediately or DM us right now so our team can lock the account: https://getsupport.apple.com"
+  },
+  {
+    "tweet_id": "tweet_064",
+    "text": "@AppleSupport My left AirPod Pro has no sound and won't connect to my iPhone 13. I've been a loyal customer for 10 years!!",
+    "true_intent": "connectivity_bluetooth",
+    "true_escalate": false,
+    "true_escalate_reason": "Standard AirPod reset procedure.",
+    "reference_reply": "Let's get sound back in both ears! Reset your AirPods by placing them in the case and holding the back button for 15 seconds: https://support.apple.com/airpods/reset"
+  },
+  {
+    "tweet_id": "tweet_065",
+    "text": "@AppleSupport Bluetooth keeps disconnecting from my car audio every 2 minutes after updating. I've been a loyal customer for 10 years!!",
+    "true_intent": "connectivity_bluetooth",
+    "true_escalate": false,
+    "true_escalate_reason": "Network/Bluetooth reset guidance.",
+    "reference_reply": "Car pairing issues can often be fixed by tapping 'Forget This Device' in Bluetooth settings and pairing again: https://apple.co/BluetoothFix"
+  },
+  {
+    "tweet_id": "tweet_066",
+    "text": "@AppleSupport AirPods case was washed in the laundry machine and now red light won't stop blinking. If this isn't fixed today I am switching to Samsung/Android forever! I've been a loyal customer for 10 years!!",
+    "true_intent": "connectivity_bluetooth",
+    "true_escalate": true,
+    "true_escalate_reason": "High customer churn threat / severe escalation requested.",
+    "reference_reply": "Liquid exposure can damage internal circuits. Please do not place them on a charger. Visit an Apple Store for service options: https://getsupport.apple.com"
+  },
+  {
+    "tweet_id": "tweet_067",
+    "text": "@AppleSupport Safari closes instantly every time I try to open a new tab. Unusable! I've been a loyal customer for 10 years!!",
+    "true_intent": "app_crash_bug",
+    "true_escalate": false,
+    "true_escalate_reason": "Standard browser cache / restart troubleshooting.",
+    "reference_reply": "Sorry for the glitch! Try clearing Safari cache in Settings > Safari > Clear History and Website Data, then restart: https://apple.co/SafariHelp"
+  },
+  {
+    "tweet_id": "tweet_068",
+    "text": "@AppleSupport Camera app shows a black screen whenever I switch to 0.5x ultra-wide lens. I've been a loyal customer for 10 years!!",
+    "true_intent": "app_crash_bug",
+    "true_escalate": false,
+    "true_escalate_reason": "Diagnostic restart and camera test.",
+    "reference_reply": "Let's check if this is software related. Restart your iPhone first. If the camera still shows black, send us a DM so we can run remote diagnostics."
+  },
+  {
+    "tweet_id": "tweet_069",
+    "text": "@AppleSupport Dropped my phone on pavement and screen is completely shattered and touch screen isn't working. I've been a loyal customer for 10 years!!",
+    "true_intent": "device_physical_damage",
+    "true_escalate": true,
+    "true_escalate_reason": "Hardware replacement required.",
+    "reference_reply": "We're sorry to hear about the drop! You can view screen repair estimates and set up a service appointment here: https://support.apple.com/iphone/repair/screen-replacement"
+  },
+  {
+    "tweet_id": "tweet_070",
+    "text": "@AppleSupport Phone fell into pool and speaker sounds muffled like underwater. I've been a loyal customer for 10 years!!",
+    "true_intent": "device_physical_damage",
+    "true_escalate": true,
+    "true_escalate_reason": "Liquid exposure hardware check.",
+    "reference_reply": "Please turn off your device and let it dry completely. If muffled sound persists after 24 hours, schedule an Apple Store diagnostic: https://getsupport.apple.com"
+  },
+  {
+    "tweet_id": "tweet_071",
+    "text": "@AppleSupport What is the trade-in value for an iPhone 11 Pro 64GB in good condition? I've been a loyal customer for 10 years!!",
+    "true_intent": "general_inquiry_feedback",
+    "true_escalate": false,
+    "true_escalate_reason": "General self-service trade-in inquiry.",
+    "reference_reply": "You can get an instant trade-in quote for your iPhone 11 Pro on our website: https://apple.co/TradeIn Let us know if you need help ordering!"
+  },
+  {
+    "tweet_id": "tweet_072",
+    "text": "@AppleSupport Are Apple Stores open on Thanksgiving day in NYC? ughhhh fix this!!",
+    "true_intent": "general_inquiry_feedback",
+    "true_escalate": false,
+    "true_escalate_reason": "Store locator inquiry.",
+    "reference_reply": "Store hours vary by location. You can check holiday hours for your local NYC store here: https://apple.co/StoreLocator"
+  },
+  {
+    "tweet_id": "tweet_073",
+    "text": "@AppleSupport My iPhone 14 battery is dropping 20% per hour after updating to the latest iOS. Help! ughhhh fix this!!",
+    "true_intent": "hardware_battery",
+    "true_escalate": false,
+    "true_escalate_reason": "Standard battery drain troubleshooting applies.",
+    "reference_reply": "We know battery drain can be frustrating. Check Settings > Battery to see if an app is consuming unusual background power: https://apple.co/BatteryInfo"
+  },
+  {
+    "tweet_id": "tweet_074",
+    "text": "@AppleSupport battery health dropped from 98% to 75% in two weeks and the back panel is swelling hot!! ughhhh fix this!!",
+    "true_intent": "hardware_battery",
+    "true_escalate": true,
+    "true_escalate_reason": "Physical swelling/overheating poses a safety hazard.",
+    "reference_reply": "Your safety is our top priority! Please immediately stop charging the device and schedule an urgent Apple Store inspection: https://getsupport.apple.com"
+  },
+  {
+    "tweet_id": "tweet_075",
+    "text": "@AppleSupport phone gets warm while charging overnight. Is this normal? ughhhh fix this!!",
+    "true_intent": "hardware_battery",
+    "true_escalate": false,
+    "true_escalate_reason": "Normal thermal behavior check.",
+    "reference_reply": "It's normal for iPhone to warm up while charging. Learn more about optimal operating temperatures: https://support.apple.com/iphone/thermals"
+  },
+  {
+    "tweet_id": "tweet_076",
+    "text": "@AppleSupport updated to iOS 17.2 and now my phone is stuck on the Apple logo boot loop! ughhhh fix this!!",
+    "true_intent": "software_update",
+    "true_escalate": false,
+    "true_escalate_reason": "Standard recovery mode instructions.",
+    "reference_reply": "Let's get your phone restored! Connect your iPhone to a computer and put it in Recovery Mode: https://support.apple.com/ios/recovery"
+  },
+  {
+    "tweet_id": "tweet_077",
+    "text": "@AppleSupport iOS update says 'Unable to Verify Update' every single time I try. If this isn't fixed today I am switching to Samsung/Android forever! ughhhh fix this!!",
+    "true_intent": "software_update",
+    "true_escalate": true,
+    "true_escalate_reason": "High customer churn threat / severe escalation requested.",
+    "reference_reply": "This often happens if storage is low or connection interrupts. Delete the downloaded update in Settings > Storage and retry: https://apple.co/iOSUpdate"
+  },
+  {
+    "tweet_id": "tweet_078",
+    "text": "@AppleSupport my phone has been updating for 14 hours straight and screen is completely frozen black. ughhhh fix this!!",
+    "true_intent": "software_update",
+    "true_escalate": true,
+    "true_escalate_reason": "Prolonged freeze requires human tier hardware/recovery support.",
+    "reference_reply": "Fourteen hours is definitely unexpected. We need to walk you through a forced recovery. Please send us a DM or contact AppleCare support directly: https://getsupport.apple.com"
+  },
+  {
+    "tweet_id": "tweet_079",
+    "text": "@AppleSupport I got a random bill for $89.99 for an in-app purchase I NEVER made! Refund me now! ughhhh fix this!!",
+    "true_intent": "account_billing",
+    "true_escalate": true,
+    "true_escalate_reason": "Financial transaction refund requiring customer authentication.",
+    "reference_reply": "We understand your urgency regarding unauthorized charges. Please report the item immediately at https://reportaproblem.apple.com and DM us to secure your Apple ID."
+  },
+  {
+    "tweet_id": "tweet_080",
+    "text": "@AppleSupport My Apple ID is locked for security reasons and I can't access my work email or iCloud! ughhhh fix this!!",
+    "true_intent": "account_billing",
+    "true_escalate": false,
+    "true_escalate_reason": "Self-service recovery url provided.",
+    "reference_reply": "You can unlock your account securely by following the steps at https://iforgot.apple.com. Let us know if you run into any issues during verification."
+  },
+  {
+    "tweet_id": "tweet_081",
+    "text": "@AppleSupport Someone hacked my Apple ID and changed my email and phone number!! HELP ME NOW!! ughhhh fix this!!",
+    "true_intent": "account_billing",
+    "true_escalate": true,
+    "true_escalate_reason": "Account takeover / security compromise critical escalation.",
+    "reference_reply": "We take account security extremely seriously. Please call AppleCare account security immediately or DM us right now so our team can lock the account: https://getsupport.apple.com"
+  },
+  {
+    "tweet_id": "tweet_082",
+    "text": "@AppleSupport My left AirPod Pro has no sound and won't connect to my iPhone 13. ughhhh fix this!!",
+    "true_intent": "connectivity_bluetooth",
+    "true_escalate": false,
+    "true_escalate_reason": "Standard AirPod reset procedure.",
+    "reference_reply": "Let's get sound back in both ears! Reset your AirPods by placing them in the case and holding the back button for 15 seconds: https://support.apple.com/airpods/reset"
+  },
+  {
+    "tweet_id": "tweet_083",
+    "text": "@AppleSupport Bluetooth keeps disconnecting from my car audio every 2 minutes after updating. ughhhh fix this!!",
+    "true_intent": "connectivity_bluetooth",
+    "true_escalate": false,
+    "true_escalate_reason": "Network/Bluetooth reset guidance.",
+    "reference_reply": "Car pairing issues can often be fixed by tapping 'Forget This Device' in Bluetooth settings and pairing again: https://apple.co/BluetoothFix"
+  },
+  {
+    "tweet_id": "tweet_084",
+    "text": "@AppleSupport AirPods case was washed in the laundry machine and now red light won't stop blinking. ughhhh fix this!!",
+    "true_intent": "connectivity_bluetooth",
+    "true_escalate": true,
+    "true_escalate_reason": "Liquid damage hardware failure.",
+    "reference_reply": "Liquid exposure can damage internal circuits. Please do not place them on a charger. Visit an Apple Store for service options: https://getsupport.apple.com"
+  },
+  {
+    "tweet_id": "tweet_085",
+    "text": "@AppleSupport Safari closes instantly every time I try to open a new tab. Unusable! ughhhh fix this!!",
+    "true_intent": "app_crash_bug",
+    "true_escalate": false,
+    "true_escalate_reason": "Standard browser cache / restart troubleshooting.",
+    "reference_reply": "Sorry for the glitch! Try clearing Safari cache in Settings > Safari > Clear History and Website Data, then restart: https://apple.co/SafariHelp"
+  },
+  {
+    "tweet_id": "tweet_086",
+    "text": "@AppleSupport Camera app shows a black screen whenever I switch to 0.5x ultra-wide lens. ughhhh fix this!!",
+    "true_intent": "app_crash_bug",
+    "true_escalate": false,
+    "true_escalate_reason": "Diagnostic restart and camera test.",
+    "reference_reply": "Let's check if this is software related. Restart your iPhone first. If the camera still shows black, send us a DM so we can run remote diagnostics."
+  },
+  {
+    "tweet_id": "tweet_087",
+    "text": "@AppleSupport Dropped my phone on pavement and screen is completely shattered and touch screen isn't working. ughhhh fix this!!",
+    "true_intent": "device_physical_damage",
+    "true_escalate": true,
+    "true_escalate_reason": "Hardware replacement required.",
+    "reference_reply": "We're sorry to hear about the drop! You can view screen repair estimates and set up a service appointment here: https://support.apple.com/iphone/repair/screen-replacement"
+  },
+  {
+    "tweet_id": "tweet_088",
+    "text": "@AppleSupport Phone fell into pool and speaker sounds muffled like underwater. If this isn't fixed today I am switching to Samsung/Android forever! ughhhh fix this!!",
+    "true_intent": "device_physical_damage",
+    "true_escalate": true,
+    "true_escalate_reason": "High customer churn threat / severe escalation requested.",
+    "reference_reply": "Please turn off your device and let it dry completely. If muffled sound persists after 24 hours, schedule an Apple Store diagnostic: https://getsupport.apple.com"
+  },
+  {
+    "tweet_id": "tweet_089",
+    "text": "@AppleSupport What is the trade-in value for an iPhone 11 Pro 64GB in good condition? ughhhh fix this!!",
+    "true_intent": "general_inquiry_feedback",
+    "true_escalate": false,
+    "true_escalate_reason": "General self-service trade-in inquiry.",
+    "reference_reply": "You can get an instant trade-in quote for your iPhone 11 Pro on our website: https://apple.co/TradeIn Let us know if you need help ordering!"
+  },
+  {
+    "tweet_id": "tweet_090",
+    "text": "@AppleSupport Are Apple Stores open on Thanksgiving day in NYC? DM me please.",
+    "true_intent": "general_inquiry_feedback",
+    "true_escalate": false,
+    "true_escalate_reason": "Store locator inquiry.",
+    "reference_reply": "Store hours vary by location. You can check holiday hours for your local NYC store here: https://apple.co/StoreLocator"
+  },
+  {
+    "tweet_id": "tweet_091",
+    "text": "@AppleSupport My iPhone 14 battery is dropping 20% per hour after updating to the latest iOS. Help! DM me please.",
+    "true_intent": "hardware_battery",
+    "true_escalate": false,
+    "true_escalate_reason": "Standard battery drain troubleshooting applies.",
+    "reference_reply": "We know battery drain can be frustrating. Check Settings > Battery to see if an app is consuming unusual background power: https://apple.co/BatteryInfo"
+  },
+  {
+    "tweet_id": "tweet_092",
+    "text": "@AppleSupport battery health dropped from 98% to 75% in two weeks and the back panel is swelling hot!! DM me please.",
+    "true_intent": "hardware_battery",
+    "true_escalate": true,
+    "true_escalate_reason": "Physical swelling/overheating poses a safety hazard.",
+    "reference_reply": "Your safety is our top priority! Please immediately stop charging the device and schedule an urgent Apple Store inspection: https://getsupport.apple.com"
+  },
+  {
+    "tweet_id": "tweet_093",
+    "text": "@AppleSupport phone gets warm while charging overnight. Is this normal? DM me please.",
+    "true_intent": "hardware_battery",
+    "true_escalate": false,
+    "true_escalate_reason": "Normal thermal behavior check.",
+    "reference_reply": "It's normal for iPhone to warm up while charging. Learn more about optimal operating temperatures: https://support.apple.com/iphone/thermals"
+  },
+  {
+    "tweet_id": "tweet_094",
+    "text": "@AppleSupport updated to iOS 17.2 and now my phone is stuck on the Apple logo boot loop! DM me please.",
+    "true_intent": "software_update",
+    "true_escalate": false,
+    "true_escalate_reason": "Standard recovery mode instructions.",
+    "reference_reply": "Let's get your phone restored! Connect your iPhone to a computer and put it in Recovery Mode: https://support.apple.com/ios/recovery"
+  },
+  {
+    "tweet_id": "tweet_095",
+    "text": "@AppleSupport iOS update says 'Unable to Verify Update' every single time I try. DM me please.",
+    "true_intent": "software_update",
+    "true_escalate": false,
+    "true_escalate_reason": "Storage / network check requirement.",
+    "reference_reply": "This often happens if storage is low or connection interrupts. Delete the downloaded update in Settings > Storage and retry: https://apple.co/iOSUpdate"
+  },
+  {
+    "tweet_id": "tweet_096",
+    "text": "@AppleSupport my phone has been updating for 14 hours straight and screen is completely frozen black. DM me please.",
+    "true_intent": "software_update",
+    "true_escalate": true,
+    "true_escalate_reason": "Prolonged freeze requires human tier hardware/recovery support.",
+    "reference_reply": "Fourteen hours is definitely unexpected. We need to walk you through a forced recovery. Please send us a DM or contact AppleCare support directly: https://getsupport.apple.com"
+  },
+  {
+    "tweet_id": "tweet_097",
+    "text": "@AppleSupport I got a random bill for $89.99 for an in-app purchase I NEVER made! Refund me now! DM me please.",
+    "true_intent": "account_billing",
+    "true_escalate": true,
+    "true_escalate_reason": "Financial transaction refund requiring customer authentication.",
+    "reference_reply": "We understand your urgency regarding unauthorized charges. Please report the item immediately at https://reportaproblem.apple.com and DM us to secure your Apple ID."
+  },
+  {
+    "tweet_id": "tweet_098",
+    "text": "@AppleSupport My Apple ID is locked for security reasons and I can't access my work email or iCloud! DM me please.",
+    "true_intent": "account_billing",
+    "true_escalate": false,
+    "true_escalate_reason": "Self-service recovery url provided.",
+    "reference_reply": "You can unlock your account securely by following the steps at https://iforgot.apple.com. Let us know if you run into any issues during verification."
+  },
+  {
+    "tweet_id": "tweet_099",
+    "text": "@AppleSupport Someone hacked my Apple ID and changed my email and phone number!! HELP ME NOW!! If this isn't fixed today I am switching to Samsung/Android forever! DM me please.",
+    "true_intent": "account_billing",
+    "true_escalate": true,
+    "true_escalate_reason": "High customer churn threat / severe escalation requested.",
+    "reference_reply": "We take account security extremely seriously. Please call AppleCare account security immediately or DM us right now so our team can lock the account: https://getsupport.apple.com"
+  },
+  {
+    "tweet_id": "tweet_100",
+    "text": "@AppleSupport My left AirPod Pro has no sound and won't connect to my iPhone 13. DM me please.",
+    "true_intent": "connectivity_bluetooth",
+    "true_escalate": false,
+    "true_escalate_reason": "Standard AirPod reset procedure.",
+    "reference_reply": "Let's get sound back in both ears! Reset your AirPods by placing them in the case and holding the back button for 15 seconds: https://support.apple.com/airpods/reset"
+  },
+  {
+    "tweet_id": "tweet_101",
+    "text": "@AppleSupport Bluetooth keeps disconnecting from my car audio every 2 minutes after updating. DM me please.",
+    "true_intent": "connectivity_bluetooth",
+    "true_escalate": false,
+    "true_escalate_reason": "Network/Bluetooth reset guidance.",
+    "reference_reply": "Car pairing issues can often be fixed by tapping 'Forget This Device' in Bluetooth settings and pairing again: https://apple.co/BluetoothFix"
+  },
+  {
+    "tweet_id": "tweet_102",
+    "text": "@AppleSupport AirPods case was washed in the laundry machine and now red light won't stop blinking. DM me please.",
+    "true_intent": "connectivity_bluetooth",
+    "true_escalate": true,
+    "true_escalate_reason": "Liquid damage hardware failure.",
+    "reference_reply": "Liquid exposure can damage internal circuits. Please do not place them on a charger. Visit an Apple Store for service options: https://getsupport.apple.com"
+  },
+  {
+    "tweet_id": "tweet_103",
+    "text": "@AppleSupport Safari closes instantly every time I try to open a new tab. Unusable! DM me please.",
+    "true_intent": "app_crash_bug",
+    "true_escalate": false,
+    "true_escalate_reason": "Standard browser cache / restart troubleshooting.",
+    "reference_reply": "Sorry for the glitch! Try clearing Safari cache in Settings > Safari > Clear History and Website Data, then restart: https://apple.co/SafariHelp"
+  },
+  {
+    "tweet_id": "tweet_104",
+    "text": "@AppleSupport Camera app shows a black screen whenever I switch to 0.5x ultra-wide lens. DM me please.",
+    "true_intent": "app_crash_bug",
+    "true_escalate": false,
+    "true_escalate_reason": "Diagnostic restart and camera test.",
+    "reference_reply": "Let's check if this is software related. Restart your iPhone first. If the camera still shows black, send us a DM so we can run remote diagnostics."
+  },
+  {
+    "tweet_id": "tweet_105",
+    "text": "@AppleSupport Dropped my phone on pavement and screen is completely shattered and touch screen isn't working. DM me please.",
+    "true_intent": "device_physical_damage",
+    "true_escalate": true,
+    "true_escalate_reason": "Hardware replacement required.",
+    "reference_reply": "We're sorry to hear about the drop! You can view screen repair estimates and set up a service appointment here: https://support.apple.com/iphone/repair/screen-replacement"
+  },
+  {
+    "tweet_id": "tweet_106",
+    "text": "@AppleSupport Phone fell into pool and speaker sounds muffled like underwater. DM me please.",
+    "true_intent": "device_physical_damage",
+    "true_escalate": true,
+    "true_escalate_reason": "Liquid exposure hardware check.",
+    "reference_reply": "Please turn off your device and let it dry completely. If muffled sound persists after 24 hours, schedule an Apple Store diagnostic: https://getsupport.apple.com"
+  },
+  {
+    "tweet_id": "tweet_107",
+    "text": "@AppleSupport What is the trade-in value for an iPhone 11 Pro 64GB in good condition? DM me please.",
+    "true_intent": "general_inquiry_feedback",
+    "true_escalate": false,
+    "true_escalate_reason": "General self-service trade-in inquiry.",
+    "reference_reply": "You can get an instant trade-in quote for your iPhone 11 Pro on our website: https://apple.co/TradeIn Let us know if you need help ordering!"
+  },
+  {
+    "tweet_id": "tweet_108",
+    "text": "@AppleSupport Are Apple Stores open on Thanksgiving day in NYC? Is there a fix for this?",
+    "true_intent": "general_inquiry_feedback",
+    "true_escalate": false,
+    "true_escalate_reason": "Store locator inquiry.",
+    "reference_reply": "Store hours vary by location. You can check holiday hours for your local NYC store here: https://apple.co/StoreLocator"
+  },
+  {
+    "tweet_id": "tweet_109",
+    "text": "@AppleSupport My iPhone 14 battery is dropping 20% per hour after updating to the latest iOS. Help! Is there a fix for this?",
+    "true_intent": "hardware_battery",
+    "true_escalate": false,
+    "true_escalate_reason": "Standard battery drain troubleshooting applies.",
+    "reference_reply": "We know battery drain can be frustrating. Check Settings > Battery to see if an app is consuming unusual background power: https://apple.co/BatteryInfo"
+  },
+  {
+    "tweet_id": "tweet_110",
+    "text": "@AppleSupport battery health dropped from 98% to 75% in two weeks and the back panel is swelling hot!! If this isn't fixed today I am switching to Samsung/Android forever! Is there a fix for this?",
+    "true_intent": "hardware_battery",
+    "true_escalate": true,
+    "true_escalate_reason": "High customer churn threat / severe escalation requested.",
+    "reference_reply": "Your safety is our top priority! Please immediately stop charging the device and schedule an urgent Apple Store inspection: https://getsupport.apple.com"
+  },
+  {
+    "tweet_id": "tweet_111",
+    "text": "@AppleSupport phone gets warm while charging overnight. Is this normal? Is there a fix for this?",
+    "true_intent": "hardware_battery",
+    "true_escalate": false,
+    "true_escalate_reason": "Normal thermal behavior check.",
+    "reference_reply": "It's normal for iPhone to warm up while charging. Learn more about optimal operating temperatures: https://support.apple.com/iphone/thermals"
+  },
+  {
+    "tweet_id": "tweet_112",
+    "text": "@AppleSupport updated to iOS 17.2 and now my phone is stuck on the Apple logo boot loop! Is there a fix for this?",
+    "true_intent": "software_update",
+    "true_escalate": false,
+    "true_escalate_reason": "Standard recovery mode instructions.",
+    "reference_reply": "Let's get your phone restored! Connect your iPhone to a computer and put it in Recovery Mode: https://support.apple.com/ios/recovery"
+  },
+  {
+    "tweet_id": "tweet_113",
+    "text": "@AppleSupport iOS update says 'Unable to Verify Update' every single time I try. Is there a fix for this?",
+    "true_intent": "software_update",
+    "true_escalate": false,
+    "true_escalate_reason": "Storage / network check requirement.",
+    "reference_reply": "This often happens if storage is low or connection interrupts. Delete the downloaded update in Settings > Storage and retry: https://apple.co/iOSUpdate"
+  },
+  {
+    "tweet_id": "tweet_114",
+    "text": "@AppleSupport my phone has been updating for 14 hours straight and screen is completely frozen black. Is there a fix for this?",
+    "true_intent": "software_update",
+    "true_escalate": true,
+    "true_escalate_reason": "Prolonged freeze requires human tier hardware/recovery support.",
+    "reference_reply": "Fourteen hours is definitely unexpected. We need to walk you through a forced recovery. Please send us a DM or contact AppleCare support directly: https://getsupport.apple.com"
+  },
+  {
+    "tweet_id": "tweet_115",
+    "text": "@AppleSupport I got a random bill for $89.99 for an in-app purchase I NEVER made! Refund me now! Is there a fix for this?",
+    "true_intent": "account_billing",
+    "true_escalate": true,
+    "true_escalate_reason": "Financial transaction refund requiring customer authentication.",
+    "reference_reply": "We understand your urgency regarding unauthorized charges. Please report the item immediately at https://reportaproblem.apple.com and DM us to secure your Apple ID."
+  },
+  {
+    "tweet_id": "tweet_116",
+    "text": "@AppleSupport My Apple ID is locked for security reasons and I can't access my work email or iCloud! Is there a fix for this?",
+    "true_intent": "account_billing",
+    "true_escalate": false,
+    "true_escalate_reason": "Self-service recovery url provided.",
+    "reference_reply": "You can unlock your account securely by following the steps at https://iforgot.apple.com. Let us know if you run into any issues during verification."
+  },
+  {
+    "tweet_id": "tweet_117",
+    "text": "@AppleSupport Someone hacked my Apple ID and changed my email and phone number!! HELP ME NOW!! Is there a fix for this?",
+    "true_intent": "account_billing",
+    "true_escalate": true,
+    "true_escalate_reason": "Account takeover / security compromise critical escalation.",
+    "reference_reply": "We take account security extremely seriously. Please call AppleCare account security immediately or DM us right now so our team can lock the account: https://getsupport.apple.com"
+  },
+  {
+    "tweet_id": "tweet_118",
+    "text": "@AppleSupport My left AirPod Pro has no sound and won't connect to my iPhone 13. Is there a fix for this?",
+    "true_intent": "connectivity_bluetooth",
+    "true_escalate": false,
+    "true_escalate_reason": "Standard AirPod reset procedure.",
+    "reference_reply": "Let's get sound back in both ears! Reset your AirPods by placing them in the case and holding the back button for 15 seconds: https://support.apple.com/airpods/reset"
+  },
+  {
+    "tweet_id": "tweet_119",
+    "text": "@AppleSupport Bluetooth keeps disconnecting from my car audio every 2 minutes after updating. Is there a fix for this?",
+    "true_intent": "connectivity_bluetooth",
+    "true_escalate": false,
+    "true_escalate_reason": "Network/Bluetooth reset guidance.",
+    "reference_reply": "Car pairing issues can often be fixed by tapping 'Forget This Device' in Bluetooth settings and pairing again: https://apple.co/BluetoothFix"
+  },
+  {
+    "tweet_id": "tweet_120",
+    "text": "@AppleSupport AirPods case was washed in the laundry machine and now red light won't stop blinking. Is there a fix for this?",
+    "true_intent": "connectivity_bluetooth",
+    "true_escalate": true,
+    "true_escalate_reason": "Liquid damage hardware failure.",
+    "reference_reply": "Liquid exposure can damage internal circuits. Please do not place them on a charger. Visit an Apple Store for service options: https://getsupport.apple.com"
+  },
+  {
+    "tweet_id": "tweet_121",
+    "text": "@AppleSupport Safari closes instantly every time I try to open a new tab. Unusable! If this isn't fixed today I am switching to Samsung/Android forever! Is there a fix for this?",
+    "true_intent": "app_crash_bug",
+    "true_escalate": true,
+    "true_escalate_reason": "High customer churn threat / severe escalation requested.",
+    "reference_reply": "Sorry for the glitch! Try clearing Safari cache in Settings > Safari > Clear History and Website Data, then restart: https://apple.co/SafariHelp"
+  },
+  {
+    "tweet_id": "tweet_122",
+    "text": "@AppleSupport Camera app shows a black screen whenever I switch to 0.5x ultra-wide lens. Is there a fix for this?",
+    "true_intent": "app_crash_bug",
+    "true_escalate": false,
+    "true_escalate_reason": "Diagnostic restart and camera test.",
+    "reference_reply": "Let's check if this is software related. Restart your iPhone first. If the camera still shows black, send us a DM so we can run remote diagnostics."
+  },
+  {
+    "tweet_id": "tweet_123",
+    "text": "@AppleSupport Dropped my phone on pavement and screen is completely shattered and touch screen isn't working. Is there a fix for this?",
+    "true_intent": "device_physical_damage",
+    "true_escalate": true,
+    "true_escalate_reason": "Hardware replacement required.",
+    "reference_reply": "We're sorry to hear about the drop! You can view screen repair estimates and set up a service appointment here: https://support.apple.com/iphone/repair/screen-replacement"
+  },
+  {
+    "tweet_id": "tweet_124",
+    "text": "@AppleSupport Phone fell into pool and speaker sounds muffled like underwater. Is there a fix for this?",
+    "true_intent": "device_physical_damage",
+    "true_escalate": true,
+    "true_escalate_reason": "Liquid exposure hardware check.",
+    "reference_reply": "Please turn off your device and let it dry completely. If muffled sound persists after 24 hours, schedule an Apple Store diagnostic: https://getsupport.apple.com"
+  },
+  {
+    "tweet_id": "tweet_125",
+    "text": "@AppleSupport What is the trade-in value for an iPhone 11 Pro 64GB in good condition? Is there a fix for this?",
+    "true_intent": "general_inquiry_feedback",
+    "true_escalate": false,
+    "true_escalate_reason": "General self-service trade-in inquiry.",
+    "reference_reply": "You can get an instant trade-in quote for your iPhone 11 Pro on our website: https://apple.co/TradeIn Let us know if you need help ordering!"
+  },
+  {
+    "tweet_id": "tweet_126",
+    "text": "@AppleSupport Are Apple Stores open on Thanksgiving day in NYC? smh Apple...",
+    "true_intent": "general_inquiry_feedback",
+    "true_escalate": false,
+    "true_escalate_reason": "Store locator inquiry.",
+    "reference_reply": "Store hours vary by location. You can check holiday hours for your local NYC store here: https://apple.co/StoreLocator"
+  },
+  {
+    "tweet_id": "tweet_127",
+    "text": "@AppleSupport My iPhone 14 battery is dropping 20% per hour after updating to the latest iOS. Help! smh Apple...",
+    "true_intent": "hardware_battery",
+    "true_escalate": false,
+    "true_escalate_reason": "Standard battery drain troubleshooting applies.",
+    "reference_reply": "We know battery drain can be frustrating. Check Settings > Battery to see if an app is consuming unusual background power: https://apple.co/BatteryInfo"
+  },
+  {
+    "tweet_id": "tweet_128",
+    "text": "@AppleSupport battery health dropped from 98% to 75% in two weeks and the back panel is swelling hot!! smh Apple...",
+    "true_intent": "hardware_battery",
+    "true_escalate": true,
+    "true_escalate_reason": "Physical swelling/overheating poses a safety hazard.",
+    "reference_reply": "Your safety is our top priority! Please immediately stop charging the device and schedule an urgent Apple Store inspection: https://getsupport.apple.com"
+  },
+  {
+    "tweet_id": "tweet_129",
+    "text": "@AppleSupport phone gets warm while charging overnight. Is this normal? smh Apple...",
+    "true_intent": "hardware_battery",
+    "true_escalate": false,
+    "true_escalate_reason": "Normal thermal behavior check.",
+    "reference_reply": "It's normal for iPhone to warm up while charging. Learn more about optimal operating temperatures: https://support.apple.com/iphone/thermals"
+  },
+  {
+    "tweet_id": "tweet_130",
+    "text": "@AppleSupport updated to iOS 17.2 and now my phone is stuck on the Apple logo boot loop! smh Apple...",
+    "true_intent": "software_update",
+    "true_escalate": false,
+    "true_escalate_reason": "Standard recovery mode instructions.",
+    "reference_reply": "Let's get your phone restored! Connect your iPhone to a computer and put it in Recovery Mode: https://support.apple.com/ios/recovery"
+  },
+  {
+    "tweet_id": "tweet_131",
+    "text": "@AppleSupport iOS update says 'Unable to Verify Update' every single time I try. smh Apple...",
+    "true_intent": "software_update",
+    "true_escalate": false,
+    "true_escalate_reason": "Storage / network check requirement.",
+    "reference_reply": "This often happens if storage is low or connection interrupts. Delete the downloaded update in Settings > Storage and retry: https://apple.co/iOSUpdate"
+  },
+  {
+    "tweet_id": "tweet_132",
+    "text": "@AppleSupport my phone has been updating for 14 hours straight and screen is completely frozen black. If this isn't fixed today I am switching to Samsung/Android forever! smh Apple...",
+    "true_intent": "software_update",
+    "true_escalate": true,
+    "true_escalate_reason": "High customer churn threat / severe escalation requested.",
+    "reference_reply": "Fourteen hours is definitely unexpected. We need to walk you through a forced recovery. Please send us a DM or contact AppleCare support directly: https://getsupport.apple.com"
+  },
+  {
+    "tweet_id": "tweet_133",
+    "text": "@AppleSupport I got a random bill for $89.99 for an in-app purchase I NEVER made! Refund me now! smh Apple...",
+    "true_intent": "account_billing",
+    "true_escalate": true,
+    "true_escalate_reason": "Financial transaction refund requiring customer authentication.",
+    "reference_reply": "We understand your urgency regarding unauthorized charges. Please report the item immediately at https://reportaproblem.apple.com and DM us to secure your Apple ID."
+  },
+  {
+    "tweet_id": "tweet_134",
+    "text": "@AppleSupport My Apple ID is locked for security reasons and I can't access my work email or iCloud! smh Apple...",
+    "true_intent": "account_billing",
+    "true_escalate": false,
+    "true_escalate_reason": "Self-service recovery url provided.",
+    "reference_reply": "You can unlock your account securely by following the steps at https://iforgot.apple.com. Let us know if you run into any issues during verification."
+  },
+  {
+    "tweet_id": "tweet_135",
+    "text": "@AppleSupport Someone hacked my Apple ID and changed my email and phone number!! HELP ME NOW!! smh Apple...",
+    "true_intent": "account_billing",
+    "true_escalate": true,
+    "true_escalate_reason": "Account takeover / security compromise critical escalation.",
+    "reference_reply": "We take account security extremely seriously. Please call AppleCare account security immediately or DM us right now so our team can lock the account: https://getsupport.apple.com"
+  },
+  {
+    "tweet_id": "tweet_136",
+    "text": "@AppleSupport My left AirPod Pro has no sound and won't connect to my iPhone 13. smh Apple...",
+    "true_intent": "connectivity_bluetooth",
+    "true_escalate": false,
+    "true_escalate_reason": "Standard AirPod reset procedure.",
+    "reference_reply": "Let's get sound back in both ears! Reset your AirPods by placing them in the case and holding the back button for 15 seconds: https://support.apple.com/airpods/reset"
+  },
+  {
+    "tweet_id": "tweet_137",
+    "text": "@AppleSupport Bluetooth keeps disconnecting from my car audio every 2 minutes after updating. smh Apple...",
+    "true_intent": "connectivity_bluetooth",
+    "true_escalate": false,
+    "true_escalate_reason": "Network/Bluetooth reset guidance.",
+    "reference_reply": "Car pairing issues can often be fixed by tapping 'Forget This Device' in Bluetooth settings and pairing again: https://apple.co/BluetoothFix"
+  },
+  {
+    "tweet_id": "tweet_138",
+    "text": "@AppleSupport AirPods case was washed in the laundry machine and now red light won't stop blinking. smh Apple...",
+    "true_intent": "connectivity_bluetooth",
+    "true_escalate": true,
+    "true_escalate_reason": "Liquid damage hardware failure.",
+    "reference_reply": "Liquid exposure can damage internal circuits. Please do not place them on a charger. Visit an Apple Store for service options: https://getsupport.apple.com"
+  },
+  {
+    "tweet_id": "tweet_139",
+    "text": "@AppleSupport Safari closes instantly every time I try to open a new tab. Unusable! smh Apple...",
+    "true_intent": "app_crash_bug",
+    "true_escalate": false,
+    "true_escalate_reason": "Standard browser cache / restart troubleshooting.",
+    "reference_reply": "Sorry for the glitch! Try clearing Safari cache in Settings > Safari > Clear History and Website Data, then restart: https://apple.co/SafariHelp"
+  },
+  {
+    "tweet_id": "tweet_140",
+    "text": "@AppleSupport Camera app shows a black screen whenever I switch to 0.5x ultra-wide lens. smh Apple...",
+    "true_intent": "app_crash_bug",
+    "true_escalate": false,
+    "true_escalate_reason": "Diagnostic restart and camera test.",
+    "reference_reply": "Let's check if this is software related. Restart your iPhone first. If the camera still shows black, send us a DM so we can run remote diagnostics."
+  },
+  {
+    "tweet_id": "tweet_141",
+    "text": "@AppleSupport Dropped my phone on pavement and screen is completely shattered and touch screen isn't working. smh Apple...",
+    "true_intent": "device_physical_damage",
+    "true_escalate": true,
+    "true_escalate_reason": "Hardware replacement required.",
+    "reference_reply": "We're sorry to hear about the drop! You can view screen repair estimates and set up a service appointment here: https://support.apple.com/iphone/repair/screen-replacement"
+  },
+  {
+    "tweet_id": "tweet_142",
+    "text": "@AppleSupport Phone fell into pool and speaker sounds muffled like underwater. smh Apple...",
+    "true_intent": "device_physical_damage",
+    "true_escalate": true,
+    "true_escalate_reason": "Liquid exposure hardware check.",
+    "reference_reply": "Please turn off your device and let it dry completely. If muffled sound persists after 24 hours, schedule an Apple Store diagnostic: https://getsupport.apple.com"
+  },
+  {
+    "tweet_id": "tweet_143",
+    "text": "@AppleSupport What is the trade-in value for an iPhone 11 Pro 64GB in good condition? If this isn't fixed today I am switching to Samsung/Android forever! smh Apple...",
+    "true_intent": "general_inquiry_feedback",
+    "true_escalate": true,
+    "true_escalate_reason": "High customer churn threat / severe escalation requested.",
+    "reference_reply": "You can get an instant trade-in quote for your iPhone 11 Pro on our website: https://apple.co/TradeIn Let us know if you need help ordering!"
+  },
+  {
+    "tweet_id": "tweet_144",
+    "text": "@AppleSupport Are Apple Stores open on Thanksgiving day in NYC? Please fix ASAP!",
+    "true_intent": "general_inquiry_feedback",
+    "true_escalate": false,
+    "true_escalate_reason": "Store locator inquiry.",
+    "reference_reply": "Store hours vary by location. You can check holiday hours for your local NYC store here: https://apple.co/StoreLocator"
+  },
+  {
+    "tweet_id": "tweet_145",
+    "text": "@AppleSupport My iPhone 14 battery is dropping 20% per hour after updating to the latest iOS. Help! Please fix ASAP!",
+    "true_intent": "hardware_battery",
+    "true_escalate": false,
+    "true_escalate_reason": "Standard battery drain troubleshooting applies.",
+    "reference_reply": "We know battery drain can be frustrating. Check Settings > Battery to see if an app is consuming unusual background power: https://apple.co/BatteryInfo"
+  },
+  {
+    "tweet_id": "tweet_146",
+    "text": "@AppleSupport battery health dropped from 98% to 75% in two weeks and the back panel is swelling hot!! Please fix ASAP!",
+    "true_intent": "hardware_battery",
+    "true_escalate": true,
+    "true_escalate_reason": "Physical swelling/overheating poses a safety hazard.",
+    "reference_reply": "Your safety is our top priority! Please immediately stop charging the device and schedule an urgent Apple Store inspection: https://getsupport.apple.com"
+  },
+  {
+    "tweet_id": "tweet_147",
+    "text": "@AppleSupport phone gets warm while charging overnight. Is this normal? Please fix ASAP!",
+    "true_intent": "hardware_battery",
+    "true_escalate": false,
+    "true_escalate_reason": "Normal thermal behavior check.",
+    "reference_reply": "It's normal for iPhone to warm up while charging. Learn more about optimal operating temperatures: https://support.apple.com/iphone/thermals"
+  },
+  {
+    "tweet_id": "tweet_148",
+    "text": "@AppleSupport updated to iOS 17.2 and now my phone is stuck on the Apple logo boot loop! Please fix ASAP!",
+    "true_intent": "software_update",
+    "true_escalate": false,
+    "true_escalate_reason": "Standard recovery mode instructions.",
+    "reference_reply": "Let's get your phone restored! Connect your iPhone to a computer and put it in Recovery Mode: https://support.apple.com/ios/recovery"
+  },
+  {
+    "tweet_id": "tweet_149",
+    "text": "@AppleSupport iOS update says 'Unable to Verify Update' every single time I try. Please fix ASAP!",
+    "true_intent": "software_update",
+    "true_escalate": false,
+    "true_escalate_reason": "Storage / network check requirement.",
+    "reference_reply": "This often happens if storage is low or connection interrupts. Delete the downloaded update in Settings > Storage and retry: https://apple.co/iOSUpdate"
+  },
+  {
+    "tweet_id": "tweet_150",
+    "text": "@AppleSupport my phone has been updating for 14 hours straight and screen is completely frozen black. Please fix ASAP!",
+    "true_intent": "software_update",
+    "true_escalate": true,
+    "true_escalate_reason": "Prolonged freeze requires human tier hardware/recovery support.",
+    "reference_reply": "Fourteen hours is definitely unexpected. We need to walk you through a forced recovery. Please send us a DM or contact AppleCare support directly: https://getsupport.apple.com"
+  },
+  {
+    "tweet_id": "tweet_151",
+    "text": "@AppleSupport I got a random bill for $89.99 for an in-app purchase I NEVER made! Refund me now! Please fix ASAP!",
+    "true_intent": "account_billing",
+    "true_escalate": true,
+    "true_escalate_reason": "Financial transaction refund requiring customer authentication.",
+    "reference_reply": "We understand your urgency regarding unauthorized charges. Please report the item immediately at https://reportaproblem.apple.com and DM us to secure your Apple ID."
+  },
+  {
+    "tweet_id": "tweet_152",
+    "text": "@AppleSupport My Apple ID is locked for security reasons and I can't access my work email or iCloud! Please fix ASAP!",
+    "true_intent": "account_billing",
+    "true_escalate": false,
+    "true_escalate_reason": "Self-service recovery url provided.",
+    "reference_reply": "You can unlock your account securely by following the steps at https://iforgot.apple.com. Let us know if you run into any issues during verification."
+  },
+  {
+    "tweet_id": "tweet_153",
+    "text": "@AppleSupport Someone hacked my Apple ID and changed my email and phone number!! HELP ME NOW!! Please fix ASAP!",
+    "true_intent": "account_billing",
+    "true_escalate": true,
+    "true_escalate_reason": "Account takeover / security compromise critical escalation.",
+    "reference_reply": "We take account security extremely seriously. Please call AppleCare account security immediately or DM us right now so our team can lock the account: https://getsupport.apple.com"
+  },
+  {
+    "tweet_id": "tweet_154",
+    "text": "@AppleSupport My left AirPod Pro has no sound and won't connect to my iPhone 13. If this isn't fixed today I am switching to Samsung/Android forever! Please fix ASAP!",
+    "true_intent": "connectivity_bluetooth",
+    "true_escalate": true,
+    "true_escalate_reason": "High customer churn threat / severe escalation requested.",
+    "reference_reply": "Let's get sound back in both ears! Reset your AirPods by placing them in the case and holding the back button for 15 seconds: https://support.apple.com/airpods/reset"
+  },
+  {
+    "tweet_id": "tweet_155",
+    "text": "@AppleSupport Bluetooth keeps disconnecting from my car audio every 2 minutes after updating. Please fix ASAP!",
+    "true_intent": "connectivity_bluetooth",
+    "true_escalate": false,
+    "true_escalate_reason": "Network/Bluetooth reset guidance.",
+    "reference_reply": "Car pairing issues can often be fixed by tapping 'Forget This Device' in Bluetooth settings and pairing again: https://apple.co/BluetoothFix"
+  },
+  {
+    "tweet_id": "tweet_156",
+    "text": "@AppleSupport AirPods case was washed in the laundry machine and now red light won't stop blinking. Please fix ASAP!",
+    "true_intent": "connectivity_bluetooth",
+    "true_escalate": true,
+    "true_escalate_reason": "Liquid damage hardware failure.",
+    "reference_reply": "Liquid exposure can damage internal circuits. Please do not place them on a charger. Visit an Apple Store for service options: https://getsupport.apple.com"
+  },
+  {
+    "tweet_id": "tweet_157",
+    "text": "@AppleSupport Safari closes instantly every time I try to open a new tab. Unusable! Please fix ASAP!",
+    "true_intent": "app_crash_bug",
+    "true_escalate": false,
+    "true_escalate_reason": "Standard browser cache / restart troubleshooting.",
+    "reference_reply": "Sorry for the glitch! Try clearing Safari cache in Settings > Safari > Clear History and Website Data, then restart: https://apple.co/SafariHelp"
+  },
+  {
+    "tweet_id": "tweet_158",
+    "text": "@AppleSupport Camera app shows a black screen whenever I switch to 0.5x ultra-wide lens. Please fix ASAP!",
+    "true_intent": "app_crash_bug",
+    "true_escalate": false,
+    "true_escalate_reason": "Diagnostic restart and camera test.",
+    "reference_reply": "Let's check if this is software related. Restart your iPhone first. If the camera still shows black, send us a DM so we can run remote diagnostics."
+  },
+  {
+    "tweet_id": "tweet_159",
+    "text": "@AppleSupport Dropped my phone on pavement and screen is completely shattered and touch screen isn't working. Please fix ASAP!",
+    "true_intent": "device_physical_damage",
+    "true_escalate": true,
+    "true_escalate_reason": "Hardware replacement required.",
+    "reference_reply": "We're sorry to hear about the drop! You can view screen repair estimates and set up a service appointment here: https://support.apple.com/iphone/repair/screen-replacement"
+  },
+  {
+    "tweet_id": "tweet_160",
+    "text": "@AppleSupport Phone fell into pool and speaker sounds muffled like underwater. Please fix ASAP!",
+    "true_intent": "device_physical_damage",
+    "true_escalate": true,
+    "true_escalate_reason": "Liquid exposure hardware check.",
+    "reference_reply": "Please turn off your device and let it dry completely. If muffled sound persists after 24 hours, schedule an Apple Store diagnostic: https://getsupport.apple.com"
+  },
+  {
+    "tweet_id": "tweet_161",
+    "text": "@AppleSupport What is the trade-in value for an iPhone 11 Pro 64GB in good condition? Please fix ASAP!",
+    "true_intent": "general_inquiry_feedback",
+    "true_escalate": false,
+    "true_escalate_reason": "General self-service trade-in inquiry.",
+    "reference_reply": "You can get an instant trade-in quote for your iPhone 11 Pro on our website: https://apple.co/TradeIn Let us know if you need help ordering!"
+  },
+  {
+    "tweet_id": "tweet_162",
+    "text": "@AppleSupport Are Apple Stores open on Thanksgiving day in NYC? This is ridiculous @AppleSupport",
+    "true_intent": "general_inquiry_feedback",
+    "true_escalate": false,
+    "true_escalate_reason": "Store locator inquiry.",
+    "reference_reply": "Store hours vary by location. You can check holiday hours for your local NYC store here: https://apple.co/StoreLocator"
+  },
+  {
+    "tweet_id": "tweet_163",
+    "text": "@AppleSupport My iPhone 14 battery is dropping 20% per hour after updating to the latest iOS. Help! This is ridiculous @AppleSupport",
+    "true_intent": "hardware_battery",
+    "true_escalate": false,
+    "true_escalate_reason": "Standard battery drain troubleshooting applies.",
+    "reference_reply": "We know battery drain can be frustrating. Check Settings > Battery to see if an app is consuming unusual background power: https://apple.co/BatteryInfo"
+  },
+  {
+    "tweet_id": "tweet_164",
+    "text": "@AppleSupport battery health dropped from 98% to 75% in two weeks and the back panel is swelling hot!! This is ridiculous @AppleSupport",
+    "true_intent": "hardware_battery",
+    "true_escalate": true,
+    "true_escalate_reason": "Physical swelling/overheating poses a safety hazard.",
+    "reference_reply": "Your safety is our top priority! Please immediately stop charging the device and schedule an urgent Apple Store inspection: https://getsupport.apple.com"
+  },
+  {
+    "tweet_id": "tweet_165",
+    "text": "@AppleSupport phone gets warm while charging overnight. Is this normal? If this isn't fixed today I am switching to Samsung/Android forever! This is ridiculous @AppleSupport",
+    "true_intent": "hardware_battery",
+    "true_escalate": true,
+    "true_escalate_reason": "High customer churn threat / severe escalation requested.",
+    "reference_reply": "It's normal for iPhone to warm up while charging. Learn more about optimal operating temperatures: https://support.apple.com/iphone/thermals"
+  },
+  {
+    "tweet_id": "tweet_166",
+    "text": "@AppleSupport updated to iOS 17.2 and now my phone is stuck on the Apple logo boot loop! This is ridiculous @AppleSupport",
+    "true_intent": "software_update",
+    "true_escalate": false,
+    "true_escalate_reason": "Standard recovery mode instructions.",
+    "reference_reply": "Let's get your phone restored! Connect your iPhone to a computer and put it in Recovery Mode: https://support.apple.com/ios/recovery"
+  },
+  {
+    "tweet_id": "tweet_167",
+    "text": "@AppleSupport iOS update says 'Unable to Verify Update' every single time I try. This is ridiculous @AppleSupport",
+    "true_intent": "software_update",
+    "true_escalate": false,
+    "true_escalate_reason": "Storage / network check requirement.",
+    "reference_reply": "This often happens if storage is low or connection interrupts. Delete the downloaded update in Settings > Storage and retry: https://apple.co/iOSUpdate"
+  },
+  {
+    "tweet_id": "tweet_168",
+    "text": "@AppleSupport my phone has been updating for 14 hours straight and screen is completely frozen black. This is ridiculous @AppleSupport",
+    "true_intent": "software_update",
+    "true_escalate": true,
+    "true_escalate_reason": "Prolonged freeze requires human tier hardware/recovery support.",
+    "reference_reply": "Fourteen hours is definitely unexpected. We need to walk you through a forced recovery. Please send us a DM or contact AppleCare support directly: https://getsupport.apple.com"
+  },
+  {
+    "tweet_id": "tweet_169",
+    "text": "@AppleSupport I got a random bill for $89.99 for an in-app purchase I NEVER made! Refund me now! This is ridiculous @AppleSupport",
+    "true_intent": "account_billing",
+    "true_escalate": true,
+    "true_escalate_reason": "Financial transaction refund requiring customer authentication.",
+    "reference_reply": "We understand your urgency regarding unauthorized charges. Please report the item immediately at https://reportaproblem.apple.com and DM us to secure your Apple ID."
+  },
+  {
+    "tweet_id": "tweet_170",
+    "text": "@AppleSupport My Apple ID is locked for security reasons and I can't access my work email or iCloud! This is ridiculous @AppleSupport",
+    "true_intent": "account_billing",
+    "true_escalate": false,
+    "true_escalate_reason": "Self-service recovery url provided.",
+    "reference_reply": "You can unlock your account securely by following the steps at https://iforgot.apple.com. Let us know if you run into any issues during verification."
+  },
+  {
+    "tweet_id": "tweet_171",
+    "text": "@AppleSupport Someone hacked my Apple ID and changed my email and phone number!! HELP ME NOW!! This is ridiculous @AppleSupport",
+    "true_intent": "account_billing",
+    "true_escalate": true,
+    "true_escalate_reason": "Account takeover / security compromise critical escalation.",
+    "reference_reply": "We take account security extremely seriously. Please call AppleCare account security immediately or DM us right now so our team can lock the account: https://getsupport.apple.com"
+  },
+  {
+    "tweet_id": "tweet_172",
+    "text": "@AppleSupport My left AirPod Pro has no sound and won't connect to my iPhone 13. This is ridiculous @AppleSupport",
+    "true_intent": "connectivity_bluetooth",
+    "true_escalate": false,
+    "true_escalate_reason": "Standard AirPod reset procedure.",
+    "reference_reply": "Let's get sound back in both ears! Reset your AirPods by placing them in the case and holding the back button for 15 seconds: https://support.apple.com/airpods/reset"
+  },
+  {
+    "tweet_id": "tweet_173",
+    "text": "@AppleSupport Bluetooth keeps disconnecting from my car audio every 2 minutes after updating. This is ridiculous @AppleSupport",
+    "true_intent": "connectivity_bluetooth",
+    "true_escalate": false,
+    "true_escalate_reason": "Network/Bluetooth reset guidance.",
+    "reference_reply": "Car pairing issues can often be fixed by tapping 'Forget This Device' in Bluetooth settings and pairing again: https://apple.co/BluetoothFix"
+  },
+  {
+    "tweet_id": "tweet_174",
+    "text": "@AppleSupport AirPods case was washed in the laundry machine and now red light won't stop blinking. This is ridiculous @AppleSupport",
+    "true_intent": "connectivity_bluetooth",
+    "true_escalate": true,
+    "true_escalate_reason": "Liquid damage hardware failure.",
+    "reference_reply": "Liquid exposure can damage internal circuits. Please do not place them on a charger. Visit an Apple Store for service options: https://getsupport.apple.com"
+  },
+  {
+    "tweet_id": "tweet_175",
+    "text": "@AppleSupport Safari closes instantly every time I try to open a new tab. Unusable! This is ridiculous @AppleSupport",
+    "true_intent": "app_crash_bug",
+    "true_escalate": false,
+    "true_escalate_reason": "Standard browser cache / restart troubleshooting.",
+    "reference_reply": "Sorry for the glitch! Try clearing Safari cache in Settings > Safari > Clear History and Website Data, then restart: https://apple.co/SafariHelp"
+  },
+  {
+    "tweet_id": "tweet_176",
+    "text": "@AppleSupport Camera app shows a black screen whenever I switch to 0.5x ultra-wide lens. If this isn't fixed today I am switching to Samsung/Android forever! This is ridiculous @AppleSupport",
+    "true_intent": "app_crash_bug",
+    "true_escalate": true,
+    "true_escalate_reason": "High customer churn threat / severe escalation requested.",
+    "reference_reply": "Let's check if this is software related. Restart your iPhone first. If the camera still shows black, send us a DM so we can run remote diagnostics."
+  },
+  {
+    "tweet_id": "tweet_177",
+    "text": "@AppleSupport Dropped my phone on pavement and screen is completely shattered and touch screen isn't working. This is ridiculous @AppleSupport",
+    "true_intent": "device_physical_damage",
+    "true_escalate": true,
+    "true_escalate_reason": "Hardware replacement required.",
+    "reference_reply": "We're sorry to hear about the drop! You can view screen repair estimates and set up a service appointment here: https://support.apple.com/iphone/repair/screen-replacement"
+  },
+  {
+    "tweet_id": "tweet_178",
+    "text": "@AppleSupport Phone fell into pool and speaker sounds muffled like underwater. This is ridiculous @AppleSupport",
+    "true_intent": "device_physical_damage",
+    "true_escalate": true,
+    "true_escalate_reason": "Liquid exposure hardware check.",
+    "reference_reply": "Please turn off your device and let it dry completely. If muffled sound persists after 24 hours, schedule an Apple Store diagnostic: https://getsupport.apple.com"
+  },
+  {
+    "tweet_id": "tweet_179",
+    "text": "@AppleSupport What is the trade-in value for an iPhone 11 Pro 64GB in good condition? This is ridiculous @AppleSupport",
+    "true_intent": "general_inquiry_feedback",
+    "true_escalate": false,
+    "true_escalate_reason": "General self-service trade-in inquiry.",
+    "reference_reply": "You can get an instant trade-in quote for your iPhone 11 Pro on our website: https://apple.co/TradeIn Let us know if you need help ordering!"
+  },
+  {
+    "tweet_id": "tweet_180",
+    "text": "@AppleSupport Are Apple Stores open on Thanksgiving day in NYC? Anyone else having this problem??",
+    "true_intent": "general_inquiry_feedback",
+    "true_escalate": false,
+    "true_escalate_reason": "Store locator inquiry.",
+    "reference_reply": "Store hours vary by location. You can check holiday hours for your local NYC store here: https://apple.co/StoreLocator"
+  },
+  {
+    "tweet_id": "tweet_181",
+    "text": "@AppleSupport My iPhone 14 battery is dropping 20% per hour after updating to the latest iOS. Help! Anyone else having this problem??",
+    "true_intent": "hardware_battery",
+    "true_escalate": false,
+    "true_escalate_reason": "Standard battery drain troubleshooting applies.",
+    "reference_reply": "We know battery drain can be frustrating. Check Settings > Battery to see if an app is consuming unusual background power: https://apple.co/BatteryInfo"
+  },
+  {
+    "tweet_id": "tweet_182",
+    "text": "@AppleSupport battery health dropped from 98% to 75% in two weeks and the back panel is swelling hot!! Anyone else having this problem??",
+    "true_intent": "hardware_battery",
+    "true_escalate": true,
+    "true_escalate_reason": "Physical swelling/overheating poses a safety hazard.",
+    "reference_reply": "Your safety is our top priority! Please immediately stop charging the device and schedule an urgent Apple Store inspection: https://getsupport.apple.com"
+  },
+  {
+    "tweet_id": "tweet_183",
+    "text": "@AppleSupport phone gets warm while charging overnight. Is this normal? Anyone else having this problem??",
+    "true_intent": "hardware_battery",
+    "true_escalate": false,
+    "true_escalate_reason": "Normal thermal behavior check.",
+    "reference_reply": "It's normal for iPhone to warm up while charging. Learn more about optimal operating temperatures: https://support.apple.com/iphone/thermals"
+  },
+  {
+    "tweet_id": "tweet_184",
+    "text": "@AppleSupport updated to iOS 17.2 and now my phone is stuck on the Apple logo boot loop! Anyone else having this problem??",
+    "true_intent": "software_update",
+    "true_escalate": false,
+    "true_escalate_reason": "Standard recovery mode instructions.",
+    "reference_reply": "Let's get your phone restored! Connect your iPhone to a computer and put it in Recovery Mode: https://support.apple.com/ios/recovery"
+  },
+  {
+    "tweet_id": "tweet_185",
+    "text": "@AppleSupport iOS update says 'Unable to Verify Update' every single time I try. Anyone else having this problem??",
+    "true_intent": "software_update",
+    "true_escalate": false,
+    "true_escalate_reason": "Storage / network check requirement.",
+    "reference_reply": "This often happens if storage is low or connection interrupts. Delete the downloaded update in Settings > Storage and retry: https://apple.co/iOSUpdate"
+  },
+  {
+    "tweet_id": "tweet_186",
+    "text": "@AppleSupport my phone has been updating for 14 hours straight and screen is completely frozen black. Anyone else having this problem??",
+    "true_intent": "software_update",
+    "true_escalate": true,
+    "true_escalate_reason": "Prolonged freeze requires human tier hardware/recovery support.",
+    "reference_reply": "Fourteen hours is definitely unexpected. We need to walk you through a forced recovery. Please send us a DM or contact AppleCare support directly: https://getsupport.apple.com"
+  },
+  {
+    "tweet_id": "tweet_187",
+    "text": "@AppleSupport I got a random bill for $89.99 for an in-app purchase I NEVER made! Refund me now! If this isn't fixed today I am switching to Samsung/Android forever! Anyone else having this problem??",
+    "true_intent": "account_billing",
+    "true_escalate": true,
+    "true_escalate_reason": "High customer churn threat / severe escalation requested.",
+    "reference_reply": "We understand your urgency regarding unauthorized charges. Please report the item immediately at https://reportaproblem.apple.com and DM us to secure your Apple ID."
+  },
+  {
+    "tweet_id": "tweet_188",
+    "text": "@AppleSupport My Apple ID is locked for security reasons and I can't access my work email or iCloud! Anyone else having this problem??",
+    "true_intent": "account_billing",
+    "true_escalate": false,
+    "true_escalate_reason": "Self-service recovery url provided.",
+    "reference_reply": "You can unlock your account securely by following the steps at https://iforgot.apple.com. Let us know if you run into any issues during verification."
+  },
+  {
+    "tweet_id": "tweet_189",
+    "text": "@AppleSupport Someone hacked my Apple ID and changed my email and phone number!! HELP ME NOW!! Anyone else having this problem??",
+    "true_intent": "account_billing",
+    "true_escalate": true,
+    "true_escalate_reason": "Account takeover / security compromise critical escalation.",
+    "reference_reply": "We take account security extremely seriously. Please call AppleCare account security immediately or DM us right now so our team can lock the account: https://getsupport.apple.com"
+  },
+  {
+    "tweet_id": "tweet_190",
+    "text": "@AppleSupport My left AirPod Pro has no sound and won't connect to my iPhone 13. Anyone else having this problem??",
+    "true_intent": "connectivity_bluetooth",
+    "true_escalate": false,
+    "true_escalate_reason": "Standard AirPod reset procedure.",
+    "reference_reply": "Let's get sound back in both ears! Reset your AirPods by placing them in the case and holding the back button for 15 seconds: https://support.apple.com/airpods/reset"
+  },
+  {
+    "tweet_id": "tweet_191",
+    "text": "@AppleSupport Bluetooth keeps disconnecting from my car audio every 2 minutes after updating. Anyone else having this problem??",
+    "true_intent": "connectivity_bluetooth",
+    "true_escalate": false,
+    "true_escalate_reason": "Network/Bluetooth reset guidance.",
+    "reference_reply": "Car pairing issues can often be fixed by tapping 'Forget This Device' in Bluetooth settings and pairing again: https://apple.co/BluetoothFix"
+  },
+  {
+    "tweet_id": "tweet_192",
+    "text": "@AppleSupport AirPods case was washed in the laundry machine and now red light won't stop blinking. Anyone else having this problem??",
+    "true_intent": "connectivity_bluetooth",
+    "true_escalate": true,
+    "true_escalate_reason": "Liquid damage hardware failure.",
+    "reference_reply": "Liquid exposure can damage internal circuits. Please do not place them on a charger. Visit an Apple Store for service options: https://getsupport.apple.com"
+  },
+  {
+    "tweet_id": "tweet_193",
+    "text": "@AppleSupport Safari closes instantly every time I try to open a new tab. Unusable! Anyone else having this problem??",
+    "true_intent": "app_crash_bug",
+    "true_escalate": false,
+    "true_escalate_reason": "Standard browser cache / restart troubleshooting.",
+    "reference_reply": "Sorry for the glitch! Try clearing Safari cache in Settings > Safari > Clear History and Website Data, then restart: https://apple.co/SafariHelp"
+  },
+  {
+    "tweet_id": "tweet_194",
+    "text": "@AppleSupport Camera app shows a black screen whenever I switch to 0.5x ultra-wide lens. Anyone else having this problem??",
+    "true_intent": "app_crash_bug",
+    "true_escalate": false,
+    "true_escalate_reason": "Diagnostic restart and camera test.",
+    "reference_reply": "Let's check if this is software related. Restart your iPhone first. If the camera still shows black, send us a DM so we can run remote diagnostics."
+  },
+  {
+    "tweet_id": "tweet_195",
+    "text": "@AppleSupport Dropped my phone on pavement and screen is completely shattered and touch screen isn't working. Anyone else having this problem??",
+    "true_intent": "device_physical_damage",
+    "true_escalate": true,
+    "true_escalate_reason": "Hardware replacement required.",
+    "reference_reply": "We're sorry to hear about the drop! You can view screen repair estimates and set up a service appointment here: https://support.apple.com/iphone/repair/screen-replacement"
+  },
+  {
+    "tweet_id": "tweet_196",
+    "text": "@AppleSupport Phone fell into pool and speaker sounds muffled like underwater. Anyone else having this problem??",
+    "true_intent": "device_physical_damage",
+    "true_escalate": true,
+    "true_escalate_reason": "Liquid exposure hardware check.",
+    "reference_reply": "Please turn off your device and let it dry completely. If muffled sound persists after 24 hours, schedule an Apple Store diagnostic: https://getsupport.apple.com"
+  },
+  {
+    "tweet_id": "tweet_197",
+    "text": "@AppleSupport What is the trade-in value for an iPhone 11 Pro 64GB in good condition? Anyone else having this problem??",
+    "true_intent": "general_inquiry_feedback",
+    "true_escalate": false,
+    "true_escalate_reason": "General self-service trade-in inquiry.",
+    "reference_reply": "You can get an instant trade-in quote for your iPhone 11 Pro on our website: https://apple.co/TradeIn Let us know if you need help ordering!"
+  },
+  {
+    "tweet_id": "tweet_198",
+    "text": "@AppleSupport Are Apple Stores open on Thanksgiving day in NYC? If this isn't fixed today I am switching to Samsung/Android forever! I've been a loyal customer for 10 years!!",
+    "true_intent": "general_inquiry_feedback",
+    "true_escalate": true,
+    "true_escalate_reason": "High customer churn threat / severe escalation requested.",
+    "reference_reply": "Store hours vary by location. You can check holiday hours for your local NYC store here: https://apple.co/StoreLocator"
+  },
+  {
+    "tweet_id": "tweet_199",
+    "text": "@AppleSupport My iPhone 14 battery is dropping 20% per hour after updating to the latest iOS. Help! I've been a loyal customer for 10 years!!",
+    "true_intent": "hardware_battery",
+    "true_escalate": false,
+    "true_escalate_reason": "Standard battery drain troubleshooting applies.",
+    "reference_reply": "We know battery drain can be frustrating. Check Settings > Battery to see if an app is consuming unusual background power: https://apple.co/BatteryInfo"
+  },
+  {
+    "tweet_id": "tweet_200",
+    "text": "@AppleSupport battery health dropped from 98% to 75% in two weeks and the back panel is swelling hot!! I've been a loyal customer for 10 years!!",
+    "true_intent": "hardware_battery",
+    "true_escalate": true,
+    "true_escalate_reason": "Physical swelling/overheating poses a safety hazard.",
+    "reference_reply": "Your safety is our top priority! Please immediately stop charging the device and schedule an urgent Apple Store inspection: https://getsupport.apple.com"
+  }
+]

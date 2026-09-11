@@ -1,0 +1,98 @@
+{
+  "Trivial Baseline": {
+    "intent_classification": {
+      "accuracy": 0.165,
+      "macro_f1": 0.0405,
+      "weighted_f1": 0.0467,
+      "macro_precision": 0.0236,
+      "macro_recall": 0.1429
+    },
+    "escalation_safety": {
+      "accuracy": 0.445,
+      "precision": 0.445,
+      "recall": 1.0,
+      "f1": 0.6159,
+      "false_negative_rate": 0.0,
+      "false_positive_rate": 1.0
+    },
+    "reply_nlp_metrics": {
+      "rouge1_f1": 0.2261,
+      "rouge2_f1": 0.0539,
+      "rougeL_f1": 0.1834,
+      "bleu_score": 0.0081
+    },
+    "llm_judge_rubric": {
+      "avg_composite_score": 3.75,
+      "avg_groundedness": 4.0,
+      "avg_helpfulness": 4.0,
+      "avg_tone": 5.0,
+      "avg_safety": 2.0
+    }
+  },
+  "Simple Baseline": {
+    "intent_classification": {
+      "accuracy": 0.515,
+      "macro_f1": 0.4401,
+      "weighted_f1": 0.5066,
+      "macro_precision": 0.512,
+      "macro_recall": 0.4573
+    },
+    "escalation_safety": {
+      "accuracy": 0.675,
+      "precision": 0.6071,
+      "recall": 0.764,
+      "f1": 0.6766,
+      "false_negative_rate": 0.236,
+      "false_positive_rate": 0.3964
+    },
+    "reply_nlp_metrics": {
+      "rouge1_f1": 0.106,
+      "rouge2_f1": 0.0224,
+      "rougeL_f1": 0.0984,
+      "bleu_score": 0.0027
+    },
+    "llm_judge_rubric": {
+      "avg_composite_score": 3.65,
+      "avg_groundedness": 3.48,
+      "avg_helpfulness": 3.81,
+      "avg_tone": 4.0,
+      "avg_safety": 3.32
+    }
+  },
+  "Proposed Agent (Hybrid RAG)": {
+    "intent_classification": {
+      "accuracy": 0.685,
+      "macro_f1": 0.6073,
+      "weighted_f1": 0.6756,
+      "macro_precision": 0.7513,
+      "macro_recall": 0.6385
+    },
+    "escalation_safety": {
+      "accuracy": 0.83,
+      "precision": 0.757,
+      "recall": 0.9101,
+      "f1": 0.8265,
+      "false_negative_rate": 0.0899,
+      "false_positive_rate": 0.2342
+    },
+    "reply_nlp_metrics": {
+      "rouge1_f1": 0.2731,
+      "rouge2_f1": 0.0846,
+      "rougeL_f1": 0.2219,
+      "bleu_score": 0.0223
+    },
+    "llm_judge_rubric": {
+      "avg_composite_score": 4.89,
+      "avg_groundedness": 4.91,
+      "avg_helpfulness": 5.0,
+      "avg_tone": 4.66,
+      "avg_safety": 5.0
+    }
+  },
+  "human_judge_calibration": {
+    "pearson_r": 0.7553,
+    "cohens_kappa": 0.7788,
+    "exact_match_percentage": 68.0,
+    "within_1_point_percentage": 100.0
+  }
+}
